@@ -1,0 +1,60 @@
+{
+	"Target": {
+		"CityHallLabel": "Get a job",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Purchase ID Card",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Submit an Application",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "You have set your job to %s with a grade of %s.",
+		"TooFar": "You are too far from the City Hall to do that.",
+		"IdCardPurchased": "You have purchased a new ID card for %s.",
+		"NotEnoughMoney": "You do not have enough money to do that. You need at least %s in your bank account.",
+		"NoBankAccount": "You do not have a bank account.",
+		"InvalidApplication": "That is not a valid application.",
+		"ApplicationSubmitted": "You have submitted your application for %s. Please wait for a response."
+	},
+	"JobMenu": {
+		"SubTitle": "Current Job: %s | Grade: %s",
+		"MenuTitle": "City Hall - Job Center",
+		"SubTitleDescription": "Select a job from the list below.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Accept job to %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Id Management",
+		"SubTitle": "Purchase a New ID Card",
+		"SubTitleDescription": "This will cost $%s and will give you a new ID card.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Submit Application",
+		"NoInput": "No input provided.",
+		"ApplicationTitle": "Application for %s",
+		"Placeholder1": "Why do you want this job?",
+		"SubTitle": "City Hall - Application Center",
+		"SubTitleDescription": "Fill out the application below and submit it when you are done.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Apply for %s",
+		"MenuTitle": "City Hall - Application Center"
+	},
+	"Discord": {
+		"ApplicationResponses": "Application Responses",
+		"NewApplication": "New %s Application",
+		"Question": "Question: %s",
+		"QuestionNumber": "Question %s",
+		"Required": " (Required)",
+		"Optional": " (Optional)",
+		"AppInfo": "Application Information",
+		"AppResp": "Application Responses",
+		"Submitted": "Submitted",
+		"Status": "Status",
+		"AwaitingReview": "Awaiting Review",
+		"ApplicationSubmitted": "A new job application has been submitted and is ready for review!"
+	}
+}
