@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Conseguir um emprego",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Comprar cartão de identidade",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Enviar candidatura",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Definiste o teu emprego para %s com grau %s.",
+		"JobSetFailed": "Esse emprego não pôde ser atribuído agora.",
+		"TooFar": "Estás demasiado longe da Câmara Municipal para fazer isso.",
+		"IdCardPurchased": "Compraste um novo cartão de identidade por %s.",
+		"NotEnoughMoney": "Não tens dinheiro suficiente. Precisas de pelo menos %s na conta bancária.",
+		"CannotCarry": "Não podes transportar outro cartão de identidade.",
+		"NoQuestions": "Esta candidatura não tem perguntas configuradas.",
+		"InvalidApplication": "Essa não é uma candidatura válida.",
+		"ApplicationSubmitted": "Enviaste a tua candidatura para %s. Aguarda uma resposta.",
+		"ApplicationFailed": "As candidaturas não estão configuradas para esse emprego.",
+		"ApplicationCooldown": "Enviaste uma candidatura recentemente. Aguarda antes de te candidatares novamente."
+	},
+	"JobMenu": {
+		"SubTitle": "Emprego atual: %s | Grau: %s",
+		"MenuTitle": "Câmara Municipal - Centro de emprego",
+		"SubTitleDescription": "Seleciona um emprego da lista abaixo.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Aceitar emprego de %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Gestão de identidade",
+		"SubTitle": "Comprar um novo cartão de identidade",
+		"SubTitleDescription": "Isto custará $%s e dar-te-á um novo cartão de identidade.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Enviar candidatura",
+		"NoInput": "Nenhuma entrada fornecida.",
+		"ApplicationTitle": "Candidatura para %s",
+		"Placeholder1": "Porque queres este emprego?",
+		"SubTitle": "Câmara Municipal - Centro de candidaturas",
+		"SubTitleDescription": "Preenche a candidatura abaixo e envia-a quando terminares.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Candidatar-se a %s",
+		"MenuTitle": "Câmara Municipal - Centro de candidaturas"
+	},
+	"Discord": {
+		"ApplicationResponses": "Respostas da candidatura",
+		"NewApplication": "Nova candidatura de %s",
+		"Question": "Pergunta: %s",
+		"QuestionNumber": "Pergunta %s",
+		"Required": " (Obrigatório)",
+		"Optional": " (Opcional)",
+		"AppInfo": "Informação da candidatura",
+		"AppResp": "Respostas da candidatura",
+		"Submitted": "Enviado",
+		"Status": "Estado",
+		"AwaitingReview": "A aguardar revisão",
+		"ApplicationSubmitted": "Foi enviada uma nova candidatura de emprego e está pronta para revisão!"
+	}
+}

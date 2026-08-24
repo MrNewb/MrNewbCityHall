@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "获取工作",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "购买身份证",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "提交申请",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "你已将工作设置为 %s，等级 %s。",
+		"JobSetFailed": "暂时无法分配该工作。",
+		"TooFar": "你离市政厅太远，无法执行此操作。",
+		"IdCardPurchased": "你已花费 %s 购买了新的身份证。",
+		"NotEnoughMoney": "你的钱不够。银行账户至少需要 %s。",
+		"CannotCarry": "你无法再携带一张身份证。",
+		"NoQuestions": "此申请未配置任何问题。",
+		"InvalidApplication": "这不是有效的申请。",
+		"ApplicationSubmitted": "你已提交 %s 的申请。请等待回复。",
+		"ApplicationFailed": "该工作未配置申请。",
+		"ApplicationCooldown": "你最近已提交过申请。请稍后再试。"
+	},
+	"JobMenu": {
+		"SubTitle": "当前工作：%s | 等级：%s",
+		"MenuTitle": "市政厅 - 就业中心",
+		"SubTitleDescription": "从下方列表中选择一份工作。",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "接受工作 %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "身份管理",
+		"SubTitle": "购买新的身份证",
+		"SubTitleDescription": "这将花费 $%s，并为你提供一张新的身份证。",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "提交申请",
+		"NoInput": "未提供输入。",
+		"ApplicationTitle": "%s 申请",
+		"Placeholder1": "你为什么想要这份工作？",
+		"SubTitle": "市政厅 - 申请中心",
+		"SubTitleDescription": "填写下方申请，完成后提交。",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "申请 %s",
+		"MenuTitle": "市政厅 - 申请中心"
+	},
+	"Discord": {
+		"ApplicationResponses": "申请回复",
+		"NewApplication": "新的 %s 申请",
+		"Question": "问题：%s",
+		"QuestionNumber": "问题 %s",
+		"Required": "（必填）",
+		"Optional": "（可选）",
+		"AppInfo": "申请信息",
+		"AppResp": "申请回复",
+		"Submitted": "已提交",
+		"Status": "状态",
+		"AwaitingReview": "等待审核",
+		"ApplicationSubmitted": "已提交一份新的工作申请，可以开始审核！"
+	}
+}

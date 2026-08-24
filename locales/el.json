@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Πάρε δουλειά",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Αγορά ταυτότητας",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Υποβολή αίτησης",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Όρισες τη δουλειά σου σε %s με βαθμό %s.",
+		"JobSetFailed": "Αυτή η δουλειά δεν μπορεί να ανατεθεί αυτή τη στιγμή.",
+		"TooFar": "Είσαι πολύ μακριά από το Δημαρχείο για να το κάνεις αυτό.",
+		"IdCardPurchased": "Αγόρασες νέα ταυτότητα για %s.",
+		"NotEnoughMoney": "Δεν έχεις αρκετά χρήματα. Χρειάζεσαι τουλάχιστον %s στον τραπεζικό σου λογαριασμό.",
+		"CannotCarry": "Δεν μπορείς να κουβαλήσεις άλλη ταυτότητα.",
+		"NoQuestions": "Αυτή η αίτηση δεν έχει ρυθμισμένες ερωτήσεις.",
+		"InvalidApplication": "Αυτή δεν είναι έγκυρη αίτηση.",
+		"ApplicationSubmitted": "Υπέβαλες την αίτησή σου για %s. Περίμενε απάντηση.",
+		"ApplicationFailed": "Οι αιτήσεις δεν είναι ρυθμισμένες για αυτή τη δουλειά.",
+		"ApplicationCooldown": "Υπέβαλες πρόσφατα αίτηση. Περίμενε πριν υποβάλεις ξανά."
+	},
+	"JobMenu": {
+		"SubTitle": "Τρέχουσα δουλειά: %s | Βαθμός: %s",
+		"MenuTitle": "Δημαρχείο - Κέντρο εργασίας",
+		"SubTitleDescription": "Επίλεξε μια δουλειά από τη λίστα παρακάτω.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Αποδοχή δουλειάς %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Διαχείριση ταυτότητας",
+		"SubTitle": "Αγορά νέας ταυτότητας",
+		"SubTitleDescription": "Θα κοστίσει $%s και θα σου δώσει νέα ταυτότητα.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Υποβολή αίτησης",
+		"NoInput": "Δεν δόθηκε είσοδος.",
+		"ApplicationTitle": "Αίτηση για %s",
+		"Placeholder1": "Γιατί θέλεις αυτή τη δουλειά;",
+		"SubTitle": "Δημαρχείο - Κέντρο αιτήσεων",
+		"SubTitleDescription": "Συμπλήρωσε την αίτηση παρακάτω και υπέβαλέ την όταν τελειώσεις.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Αίτηση για %s",
+		"MenuTitle": "Δημαρχείο - Κέντρο αιτήσεων"
+	},
+	"Discord": {
+		"ApplicationResponses": "Απαντήσεις αίτησης",
+		"NewApplication": "Νέα αίτηση %s",
+		"Question": "Ερώτηση: %s",
+		"QuestionNumber": "Ερώτηση %s",
+		"Required": " (Υποχρεωτικό)",
+		"Optional": " (Προαιρετικό)",
+		"AppInfo": "Πληροφορίες αίτησης",
+		"AppResp": "Απαντήσεις αίτησης",
+		"Submitted": "Υποβλήθηκε",
+		"Status": "Κατάσταση",
+		"AwaitingReview": "Αναμονή ελέγχου",
+		"ApplicationSubmitted": "Υποβλήθηκε νέα αίτηση εργασίας και είναι έτοιμη για έλεγχο!"
+	}
+}

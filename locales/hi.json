@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "नौकरी लें",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "पहचान पत्र खरीदें",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "आवेदन जमा करें",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "आपने अपनी नौकरी %s ग्रेड %s पर सेट कर दी है।",
+		"JobSetFailed": "वह नौकरी अभी असाइन नहीं की जा सकी।",
+		"TooFar": "आप सिटी हॉल से बहुत दूर हैं।",
+		"IdCardPurchased": "आपने %s में नया पहचान पत्र खरीदा है।",
+		"NotEnoughMoney": "आपके पास पर्याप्त पैसे नहीं हैं। बैंक खाते में कम से कम %s चाहिए।",
+		"CannotCarry": "आप एक और पहचान पत्र नहीं रख सकते।",
+		"NoQuestions": "इस आवेदन के लिए कोई प्रश्न सेट नहीं हैं।",
+		"InvalidApplication": "यह मान्य आवेदन नहीं है।",
+		"ApplicationSubmitted": "आपने %s के लिए आवेदन जमा कर दिया है। कृपया उत्तर की प्रतीक्षा करें।",
+		"ApplicationFailed": "उस नौकरी के लिए आवेदन सेट नहीं हैं।",
+		"ApplicationCooldown": "आपने हाल ही में आवेदन किया है। फिर से आवेदन करने से पहले प्रतीक्षा करें।"
+	},
+	"JobMenu": {
+		"SubTitle": "वर्तमान नौकरी: %s | ग्रेड: %s",
+		"MenuTitle": "सिटी हॉल - जॉब सेंटर",
+		"SubTitleDescription": "नीचे दी गई सूची से नौकरी चुनें।",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "%s नौकरी स्वीकार करें"
+	},
+	"IdMenu": {
+		"MenuTitle": "पहचान प्रबंधन",
+		"SubTitle": "नया पहचान पत्र खरीदें",
+		"SubTitleDescription": "इसकी कीमत $%s होगी और आपको नया पहचान पत्र मिलेगा।",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "आवेदन जमा करें",
+		"NoInput": "कोई इनपुट नहीं दिया गया।",
+		"ApplicationTitle": "%s के लिए आवेदन",
+		"Placeholder1": "आप यह नौकरी क्यों चाहते हैं?",
+		"SubTitle": "सिटी हॉल - आवेदन केंद्र",
+		"SubTitleDescription": "नीचे आवेदन भरें और पूरा होने पर जमा करें।",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "%s के लिए आवेदन करें",
+		"MenuTitle": "सिटी हॉल - आवेदन केंद्र"
+	},
+	"Discord": {
+		"ApplicationResponses": "आवेदन उत्तर",
+		"NewApplication": "नया %s आवेदन",
+		"Question": "प्रश्न: %s",
+		"QuestionNumber": "प्रश्न %s",
+		"Required": " (आवश्यक)",
+		"Optional": " (वैकल्पिक)",
+		"AppInfo": "आवेदन जानकारी",
+		"AppResp": "आवेदन उत्तर",
+		"Submitted": "जमा किया गया",
+		"Status": "स्थिति",
+		"AwaitingReview": "समीक्षा की प्रतीक्षा",
+		"ApplicationSubmitted": "एक नया नौकरी आवेदन जमा हो चुका है और समीक्षा के लिए तैयार है!"
+	}
+}

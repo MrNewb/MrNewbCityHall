@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Find a billet",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Buy yer papers",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Hand in a petition",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Ye've set yer billet to %s with rank %s.",
+		"JobSetFailed": "That billet can't be given right now, matey.",
+		"TooFar": "Ye be too far from City Hall to do that.",
+		"IdCardPurchased": "Ye bought fresh papers for %s.",
+		"NotEnoughMoney": "Ye haven't enough coin. Ye need at least %s in yer bank chest.",
+		"CannotCarry": "Ye can't haul another set o' papers.",
+		"NoQuestions": "This petition has no questions scribbled on it.",
+		"InvalidApplication": "That ain't a proper petition.",
+		"ApplicationSubmitted": "Ye've sent yer petition for %s. Wait for word back.",
+		"ApplicationFailed": "Petitions ain't set up for that billet.",
+		"ApplicationCooldown": "Ye already sent a petition. Wait afore ye try again."
+	},
+	"JobMenu": {
+		"SubTitle": "Current billet: %s | Rank: %s",
+		"MenuTitle": "City Hall - Billet Desk",
+		"SubTitleDescription": "Pick a billet from the list below.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Take billet as %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Papers Desk",
+		"SubTitle": "Buy fresh papers",
+		"SubTitleDescription": "It'll cost $%s and give ye a new set o' papers.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Send petition",
+		"NoInput": "Nothin was written.",
+		"ApplicationTitle": "Petition for %s",
+		"Placeholder1": "Why do ye want this billet?",
+		"SubTitle": "City Hall - Petition Desk",
+		"SubTitleDescription": "Fill the petition below and send it when ye be done.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Petition for %s",
+		"MenuTitle": "City Hall - Petition Desk"
+	},
+	"Discord": {
+		"ApplicationResponses": "Petition Answers",
+		"NewApplication": "New %s Petition",
+		"Question": "Question: %s",
+		"QuestionNumber": "Question %s",
+		"Required": " (Required)",
+		"Optional": " (Optional)",
+		"AppInfo": "Petition Info",
+		"AppResp": "Petition Answers",
+		"Submitted": "Sent",
+		"Status": "Status",
+		"AwaitingReview": "Awaitin Review",
+		"ApplicationSubmitted": "A new billet petition has been sent and awaits review!"
+	}
+}

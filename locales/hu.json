@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Állás megszerzése",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Személyi igazolvány vásárlása",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Jelentkezés benyújtása",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "A munkádat %s állásra állítottad %s fokozattal.",
+		"JobSetFailed": "Ezt a munkát most nem lehet kiosztani.",
+		"TooFar": "Túl messze vagy a városházától ehhez.",
+		"IdCardPurchased": "Új személyi igazolványt vásároltál %s áron.",
+		"NotEnoughMoney": "Nincs elég pénzed. Legalább %s kell a bankszámládon.",
+		"CannotCarry": "Nem vihetsz magaddal újabb személyi igazolványt.",
+		"NoQuestions": "Ehhez a jelentkezéshez nincsenek beállított kérdések.",
+		"InvalidApplication": "Ez nem érvényes jelentkezés.",
+		"ApplicationSubmitted": "Benyújtottad a jelentkezésedet a(z) %s állásra. Várj a válaszra.",
+		"ApplicationFailed": "Ehhez a munkához nincsenek beállítva jelentkezések.",
+		"ApplicationCooldown": "Nemrég nyújtottál be jelentkezést. Várj, mielőtt újra jelentkeznél."
+	},
+	"JobMenu": {
+		"SubTitle": "Jelenlegi munka: %s | Fokozat: %s",
+		"MenuTitle": "Városháza - Állásközpont",
+		"SubTitleDescription": "Válassz munkát az alábbi listából.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "%s állás elfogadása"
+	},
+	"IdMenu": {
+		"MenuTitle": "Igazolványkezelés",
+		"SubTitle": "Új személyi igazolvány vásárlása",
+		"SubTitleDescription": "Ez $%s-ba kerül, és új személyi igazolványt ad.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Jelentkezés elküldése",
+		"NoInput": "Nincs megadott adat.",
+		"ApplicationTitle": "Jelentkezés: %s",
+		"Placeholder1": "Miért szeretnéd ezt a munkát?",
+		"SubTitle": "Városháza - Jelentkezési központ",
+		"SubTitleDescription": "Töltsd ki az alábbi jelentkezést, és küldd el, ha kész vagy.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Jelentkezés: %s",
+		"MenuTitle": "Városháza - Jelentkezési központ"
+	},
+	"Discord": {
+		"ApplicationResponses": "Jelentkezési válaszok",
+		"NewApplication": "Új %s jelentkezés",
+		"Question": "Kérdés: %s",
+		"QuestionNumber": "Kérdés %s",
+		"Required": " (Kötelező)",
+		"Optional": " (Opcionális)",
+		"AppInfo": "Jelentkezési információ",
+		"AppResp": "Jelentkezési válaszok",
+		"Submitted": "Elküldve",
+		"Status": "Állapot",
+		"AwaitingReview": "Felülvizsgálatra vár",
+		"ApplicationSubmitted": "Új állásjelentkezés érkezett, és készen áll a felülvizsgálatra!"
+	}
+}

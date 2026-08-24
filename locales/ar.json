@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "احصل على وظيفة",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "شراء بطاقة هوية",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "تقديم طلب",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "لقد عيّنت وظيفتك إلى %s بدرجة %s.",
+		"JobSetFailed": "تعذر تعيين تلك الوظيفة الآن.",
+		"TooFar": "أنت بعيد جداً عن قاعة المدينة للقيام بذلك.",
+		"IdCardPurchased": "لقد اشتريت بطاقة هوية جديدة مقابل %s.",
+		"NotEnoughMoney": "ليس لديك ما يكفي من المال. تحتاج إلى %s على الأقل في حسابك البنكي.",
+		"CannotCarry": "لا يمكنك حمل بطاقة هوية أخرى.",
+		"NoQuestions": "لا توجد أسئلة مُعدّة لهذا الطلب.",
+		"InvalidApplication": "هذا ليس طلباً صالحاً.",
+		"ApplicationSubmitted": "لقد قدّمت طلبك لـ %s. يرجى انتظار الرد.",
+		"ApplicationFailed": "الطلبات غير مُعدّة لتلك الوظيفة.",
+		"ApplicationCooldown": "لقد قدّمت طلباً مؤخراً. يرجى الانتظار قبل التقديم مجدداً."
+	},
+	"JobMenu": {
+		"SubTitle": "الوظيفة الحالية: %s | الدرجة: %s",
+		"MenuTitle": "قاعة المدينة - مركز الوظائف",
+		"SubTitleDescription": "اختر وظيفة من القائمة أدناه.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "قبول وظيفة %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "إدارة الهوية",
+		"SubTitle": "شراء بطاقة هوية جديدة",
+		"SubTitleDescription": "سيكلف ذلك $%s ويمنحك بطاقة هوية جديدة.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "إرسال الطلب",
+		"NoInput": "لم يتم إدخال أي بيانات.",
+		"ApplicationTitle": "طلب لـ %s",
+		"Placeholder1": "لماذا تريد هذه الوظيفة؟",
+		"SubTitle": "قاعة المدينة - مركز الطلبات",
+		"SubTitleDescription": "املأ الطلب أدناه وأرسله عند الانتهاء.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "قدّم طلباً لـ %s",
+		"MenuTitle": "قاعة المدينة - مركز الطلبات"
+	},
+	"Discord": {
+		"ApplicationResponses": "ردود الطلب",
+		"NewApplication": "طلب %s جديد",
+		"Question": "سؤال: %s",
+		"QuestionNumber": "سؤال %s",
+		"Required": " (مطلوب)",
+		"Optional": " (اختياري)",
+		"AppInfo": "معلومات الطلب",
+		"AppResp": "ردود الطلب",
+		"Submitted": "تم الإرسال",
+		"Status": "الحالة",
+		"AwaitingReview": "بانتظار المراجعة",
+		"ApplicationSubmitted": "تم تقديم طلب وظيفة جديد وهو جاهز للمراجعة!"
+	}
+}

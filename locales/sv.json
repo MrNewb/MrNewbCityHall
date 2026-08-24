@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Skaffa ett jobb",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Köp ID-kort",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Skicka in ansökan",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Du har satt ditt jobb till %s med grad %s.",
+		"JobSetFailed": "Det jobbet kunde inte tilldelas just nu.",
+		"TooFar": "Du är för långt från stadshuset för att göra det.",
+		"IdCardPurchased": "Du har köpt ett nytt ID-kort för %s.",
+		"NotEnoughMoney": "Du har inte tillräckligt med pengar. Du behöver minst %s på bankkontot.",
+		"CannotCarry": "Du kan inte bära ytterligare ett ID-kort.",
+		"NoQuestions": "Denna ansökan har inga frågor konfigurerade.",
+		"InvalidApplication": "Det är inte en giltig ansökan.",
+		"ApplicationSubmitted": "Du har skickat in din ansökan för %s. Vänta på svar.",
+		"ApplicationFailed": "Ansökningar är inte konfigurerade för det jobbet.",
+		"ApplicationCooldown": "Du skickade nyligen in en ansökan. Vänta innan du ansöker igen."
+	},
+	"JobMenu": {
+		"SubTitle": "Nuvarande jobb: %s | Grad: %s",
+		"MenuTitle": "Stadshus - Jobbcenter",
+		"SubTitleDescription": "Välj ett jobb från listan nedan.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Acceptera jobb som %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "ID-hantering",
+		"SubTitle": "Köp ett nytt ID-kort",
+		"SubTitleDescription": "Det kostar $%s och ger dig ett nytt ID-kort.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Skicka ansökan",
+		"NoInput": "Ingen inmatning angavs.",
+		"ApplicationTitle": "Ansökan för %s",
+		"Placeholder1": "Varför vill du ha det här jobbet?",
+		"SubTitle": "Stadshus - Ansökningscenter",
+		"SubTitleDescription": "Fyll i ansökan nedan och skicka in den när du är klar.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Ansök om %s",
+		"MenuTitle": "Stadshus - Ansökningscenter"
+	},
+	"Discord": {
+		"ApplicationResponses": "Ansökningssvar",
+		"NewApplication": "Ny %s-ansökan",
+		"Question": "Fråga: %s",
+		"QuestionNumber": "Fråga %s",
+		"Required": " (Obligatorisk)",
+		"Optional": " (Valfri)",
+		"AppInfo": "Ansökningsinformation",
+		"AppResp": "Ansökningssvar",
+		"Submitted": "Inskickad",
+		"Status": "Status",
+		"AwaitingReview": "Väntar på granskning",
+		"ApplicationSubmitted": "En ny jobbanökan har skickats in och är redo för granskning!"
+	}
+}

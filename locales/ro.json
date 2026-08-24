@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Obține un loc de muncă",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Cumpără carte de identitate",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Trimite o aplicație",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Ți-ai setat jobul la %s cu gradul %s.",
+		"JobSetFailed": "Acel job nu a putut fi atribuit acum.",
+		"TooFar": "Ești prea departe de Primărie ca să faci asta.",
+		"IdCardPurchased": "Ai cumpărat o carte de identitate nouă pentru %s.",
+		"NotEnoughMoney": "Nu ai destui bani. Ai nevoie de cel puțin %s în contul bancar.",
+		"CannotCarry": "Nu poți purta încă o carte de identitate.",
+		"NoQuestions": "Această aplicație nu are întrebări configurate.",
+		"InvalidApplication": "Aceasta nu este o aplicație validă.",
+		"ApplicationSubmitted": "Ai trimis aplicația pentru %s. Așteaptă un răspuns.",
+		"ApplicationFailed": "Aplicațiile nu sunt configurate pentru acel job.",
+		"ApplicationCooldown": "Ai trimis recent o aplicație. Așteaptă înainte să aplici din nou."
+	},
+	"JobMenu": {
+		"SubTitle": "Job curent: %s | Grad: %s",
+		"MenuTitle": "Primărie - Centru de joburi",
+		"SubTitleDescription": "Selectează un job din lista de mai jos.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Acceptă jobul %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Gestionare identitate",
+		"SubTitle": "Cumpără o carte de identitate nouă",
+		"SubTitleDescription": "Va costa $%s și îți va da o carte de identitate nouă.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Trimite aplicația",
+		"NoInput": "Nu a fost furnizată nicio intrare.",
+		"ApplicationTitle": "Aplicație pentru %s",
+		"Placeholder1": "De ce vrei acest job?",
+		"SubTitle": "Primărie - Centru de aplicații",
+		"SubTitleDescription": "Completează aplicația de mai jos și trimite-o când ai terminat.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Aplică pentru %s",
+		"MenuTitle": "Primărie - Centru de aplicații"
+	},
+	"Discord": {
+		"ApplicationResponses": "Răspunsuri aplicație",
+		"NewApplication": "Aplicație nouă %s",
+		"Question": "Întrebare: %s",
+		"QuestionNumber": "Întrebare %s",
+		"Required": " (Obligatoriu)",
+		"Optional": " (Opțional)",
+		"AppInfo": "Informații aplicație",
+		"AppResp": "Răspunsuri aplicație",
+		"Submitted": "Trimis",
+		"Status": "Status",
+		"AwaitingReview": "În așteptarea revizuirii",
+		"ApplicationSubmitted": "A fost trimisă o aplicație nouă pentru un job și este gata de revizuire!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Få en jobb",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Kjøp ID-kort",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Send inn søknad",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Du har satt jobben din til %s med grad %s.",
+		"JobSetFailed": "Den jobben kunne ikke tildeles akkurat nå.",
+		"TooFar": "Du er for langt fra rådhuset til å gjøre det.",
+		"IdCardPurchased": "Du har kjøpt et nytt ID-kort for %s.",
+		"NotEnoughMoney": "Du har ikke nok penger. Du trenger minst %s på bankkontoen din.",
+		"CannotCarry": "Du kan ikke bære et ID-kort til.",
+		"NoQuestions": "Denne søknaden har ingen spørsmål konfigurert.",
+		"InvalidApplication": "Det er ikke en gyldig søknad.",
+		"ApplicationSubmitted": "Du har sendt inn søknaden din for %s. Vent på svar.",
+		"ApplicationFailed": "Søknader er ikke konfigurert for den jobben.",
+		"ApplicationCooldown": "Du sendte nylig inn en søknad. Vent før du søker igjen."
+	},
+	"JobMenu": {
+		"SubTitle": "Nåværende jobb: %s | Grad: %s",
+		"MenuTitle": "Rådhus - Jobbsenter",
+		"SubTitleDescription": "Velg en jobb fra listen nedenfor.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Godta jobb som %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "ID-administrasjon",
+		"SubTitle": "Kjøp et nytt ID-kort",
+		"SubTitleDescription": "Det koster $%s og gir deg et nytt ID-kort.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Send inn søknad",
+		"NoInput": "Ingen inndata oppgitt.",
+		"ApplicationTitle": "Søknad for %s",
+		"Placeholder1": "Hvorfor vil du ha denne jobben?",
+		"SubTitle": "Rådhus - Søknadssenter",
+		"SubTitleDescription": "Fyll ut søknaden nedenfor og send den inn når du er ferdig.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Søk på %s",
+		"MenuTitle": "Rådhus - Søknadssenter"
+	},
+	"Discord": {
+		"ApplicationResponses": "Søknadssvar",
+		"NewApplication": "Ny %s-søknad",
+		"Question": "Spørsmål: %s",
+		"QuestionNumber": "Spørsmål %s",
+		"Required": " (Påkrevd)",
+		"Optional": " (Valgfritt)",
+		"AppInfo": "Søknadsinformasjon",
+		"AppResp": "Søknadssvar",
+		"Submitted": "Sendt inn",
+		"Status": "Status",
+		"AwaitingReview": "Venter på gjennomgang",
+		"ApplicationSubmitted": "En ny jobbsøknad er sendt inn og klar for gjennomgang!"
+	}
+}

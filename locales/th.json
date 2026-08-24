@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "หางาน",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "ซื้อบัตรประชาชน",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "ส่งใบสมัคร",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "คุณตั้งงานเป็น %s ระดับ %s แล้ว",
+		"JobSetFailed": "ไม่สามารถมอบหมายงานนั้นได้ในตอนนี้",
+		"TooFar": "คุณอยู่ไกลจากศาลาว่าการเมืองเกินไป",
+		"IdCardPurchased": "คุณซื้อบัตรประชาชนใหม่ในราคา %s",
+		"NotEnoughMoney": "คุณมีเงินไม่พอ ต้องมีอย่างน้อย %s ในบัญชีธนาคาร",
+		"CannotCarry": "คุณถือบัตรประชาชนเพิ่มไม่ได้",
+		"NoQuestions": "ใบสมัครนี้ยังไม่ได้ตั้งคำถาม",
+		"InvalidApplication": "นี่ไม่ใช่ใบสมัครที่ถูกต้อง",
+		"ApplicationSubmitted": "คุณส่งใบสมัครสำหรับ %s แล้ว กรุณารอการตอบกลับ",
+		"ApplicationFailed": "งานนั้นยังไม่ได้ตั้งค่าใบสมัคร",
+		"ApplicationCooldown": "คุณเพิ่งส่งใบสมัคร กรุณารอก่อนสมัครอีกครั้ง"
+	},
+	"JobMenu": {
+		"SubTitle": "งานปัจจุบัน: %s | ระดับ: %s",
+		"MenuTitle": "ศาลาว่าการ - ศูนย์งาน",
+		"SubTitleDescription": "เลือกงานจากรายการด้านล่าง",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "รับงาน %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "จัดการบัตรประชาชน",
+		"SubTitle": "ซื้อบัตรประชาชนใหม่",
+		"SubTitleDescription": "จะเสีย $%s และได้รับบัตรประชาชนใหม่",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "ส่งใบสมัคร",
+		"NoInput": "ไม่ได้ใส่ข้อมูล",
+		"ApplicationTitle": "ใบสมัครสำหรับ %s",
+		"Placeholder1": "ทำไมคุณถึงอยากได้งานนี้?",
+		"SubTitle": "ศาลาว่าการ - ศูนย์สมัครงาน",
+		"SubTitleDescription": "กรอกใบสมัครด้านล่างแล้วส่งเมื่อเสร็จ",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "สมัคร %s",
+		"MenuTitle": "ศาลาว่าการ - ศูนย์สมัครงาน"
+	},
+	"Discord": {
+		"ApplicationResponses": "คำตอบใบสมัคร",
+		"NewApplication": "ใบสมัคร %s ใหม่",
+		"Question": "คำถาม: %s",
+		"QuestionNumber": "คำถาม %s",
+		"Required": " (จำเป็น)",
+		"Optional": " (ไม่บังคับ)",
+		"AppInfo": "ข้อมูลใบสมัคร",
+		"AppResp": "คำตอบใบสมัคร",
+		"Submitted": "ส่งแล้ว",
+		"Status": "สถานะ",
+		"AwaitingReview": "รอการตรวจสอบ",
+		"ApplicationSubmitted": "มีใบสมัครงานใหม่ถูกส่งมาและพร้อมให้ตรวจสอบแล้ว!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Een baan krijgen",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "ID-kaart kopen",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Sollicitatie indienen",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Je hebt je baan ingesteld op %s met rang %s.",
+		"JobSetFailed": "Die baan kon nu niet worden toegewezen.",
+		"TooFar": "Je bent te ver van het stadhuis om dat te doen.",
+		"IdCardPurchased": "Je hebt een nieuwe ID-kaart gekocht voor %s.",
+		"NotEnoughMoney": "Je hebt niet genoeg geld. Je hebt minstens %s op je bankrekening nodig.",
+		"CannotCarry": "Je kunt geen ID-kaart meer dragen.",
+		"NoQuestions": "Deze sollicitatie heeft geen vragen geconfigureerd.",
+		"InvalidApplication": "Dat is geen geldige sollicitatie.",
+		"ApplicationSubmitted": "Je hebt je sollicitatie voor %s ingediend. Wacht op een reactie.",
+		"ApplicationFailed": "Sollicitaties zijn niet geconfigureerd voor die baan.",
+		"ApplicationCooldown": "Je hebt recent een sollicitatie ingediend. Wacht voordat je opnieuw solliciteert."
+	},
+	"JobMenu": {
+		"SubTitle": "Huidige baan: %s | Rang: %s",
+		"MenuTitle": "Stadhuis - Vacaturecentrum",
+		"SubTitleDescription": "Selecteer een baan uit de lijst hieronder.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Accepteer baan %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "ID-beheer",
+		"SubTitle": "Nieuwe ID-kaart kopen",
+		"SubTitleDescription": "Dit kost $%s en geeft je een nieuwe ID-kaart.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Sollicitatie indienen",
+		"NoInput": "Geen invoer opgegeven.",
+		"ApplicationTitle": "Sollicitatie voor %s",
+		"Placeholder1": "Waarom wil je deze baan?",
+		"SubTitle": "Stadhuis - Sollicitatiecentrum",
+		"SubTitleDescription": "Vul de sollicitatie hieronder in en dien hem in wanneer je klaar bent.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Solliciteer voor %s",
+		"MenuTitle": "Stadhuis - Sollicitatiecentrum"
+	},
+	"Discord": {
+		"ApplicationResponses": "Sollicitatieantwoorden",
+		"NewApplication": "Nieuwe %s-sollicitatie",
+		"Question": "Vraag: %s",
+		"QuestionNumber": "Vraag %s",
+		"Required": " (Verplicht)",
+		"Optional": " (Optioneel)",
+		"AppInfo": "Sollicitatiegegevens",
+		"AppResp": "Sollicitatieantwoorden",
+		"Submitted": "Ingediend",
+		"Status": "Status",
+		"AwaitingReview": "Wacht op beoordeling",
+		"ApplicationSubmitted": "Er is een nieuwe sollicitatie ingediend en die is klaar voor beoordeling!"
+	}
+}

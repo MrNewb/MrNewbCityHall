@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "獲取工作",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "購買身份證",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "提交申請",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "你已將工作設定為 %s，等級 %s。",
+		"JobSetFailed": "暫時無法分配該工作。",
+		"TooFar": "你離市政廳太遠，無法執行此操作。",
+		"IdCardPurchased": "你已花費 %s 購買了新的身份證。",
+		"NotEnoughMoney": "你的錢不夠。銀行帳戶至少需要 %s。",
+		"CannotCarry": "你無法再攜帶一張身份證。",
+		"NoQuestions": "此申請未設定任何問題。",
+		"InvalidApplication": "這不是有效的申請。",
+		"ApplicationSubmitted": "你已提交 %s 的申請。請等待回覆。",
+		"ApplicationFailed": "該工作未設定申請。",
+		"ApplicationCooldown": "你最近已提交過申請。請稍後再試。"
+	},
+	"JobMenu": {
+		"SubTitle": "目前工作：%s | 等級：%s",
+		"MenuTitle": "市政廳 - 就業中心",
+		"SubTitleDescription": "從下方列表中選擇一份工作。",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "接受工作 %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "身份管理",
+		"SubTitle": "購買新的身份證",
+		"SubTitleDescription": "這將花費 $%s，並為你提供一張新的身份證。",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "提交申請",
+		"NoInput": "未提供輸入。",
+		"ApplicationTitle": "%s 申請",
+		"Placeholder1": "你為什麼想要這份工作？",
+		"SubTitle": "市政廳 - 申請中心",
+		"SubTitleDescription": "填寫下方申請，完成後提交。",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "申請 %s",
+		"MenuTitle": "市政廳 - 申請中心"
+	},
+	"Discord": {
+		"ApplicationResponses": "申請回覆",
+		"NewApplication": "新的 %s 申請",
+		"Question": "問題：%s",
+		"QuestionNumber": "問題 %s",
+		"Required": "（必填）",
+		"Optional": "（可選）",
+		"AppInfo": "申請資訊",
+		"AppResp": "申請回覆",
+		"Submitted": "已提交",
+		"Status": "狀態",
+		"AwaitingReview": "等待審核",
+		"ApplicationSubmitted": "已提交一份新的工作申請，可以開始審核！"
+	}
+}

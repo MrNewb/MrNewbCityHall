@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Uzmi posao",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Kupi osobnu iskaznicu",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Pošalji prijavu",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Postavili ste posao na %s s razinom %s.",
+		"JobSetFailed": "Taj se posao trenutačno ne može dodijeliti.",
+		"TooFar": "Predaleko ste od gradske vijećnice da biste to učinili.",
+		"IdCardPurchased": "Kupili ste novu osobnu iskaznicu za %s.",
+		"NotEnoughMoney": "Nemate dovoljno novca. Treba vam barem %s na bankovnom računu.",
+		"CannotCarry": "Ne možete nositi još jednu osobnu iskaznicu.",
+		"NoQuestions": "Ova prijava nema konfigurirana pitanja.",
+		"InvalidApplication": "To nije valjana prijava.",
+		"ApplicationSubmitted": "Poslali ste prijavu za %s. Pričekajte odgovor.",
+		"ApplicationFailed": "Prijave nisu konfigurirane za taj posao.",
+		"ApplicationCooldown": "Nedavno ste poslali prijavu. Pričekajte prije nove prijave."
+	},
+	"JobMenu": {
+		"SubTitle": "Trenutačni posao: %s | Razina: %s",
+		"MenuTitle": "Gradska vijećnica - Centar za posao",
+		"SubTitleDescription": "Odaberite posao s popisa ispod.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Prihvati posao %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Upravljanje iskaznicom",
+		"SubTitle": "Kupi novu osobnu iskaznicu",
+		"SubTitleDescription": "To će koštati $%s i dati vam novu osobnu iskaznicu.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Pošalji prijavu",
+		"NoInput": "Nije unesen unos.",
+		"ApplicationTitle": "Prijava za %s",
+		"Placeholder1": "Zašto želite ovaj posao?",
+		"SubTitle": "Gradska vijećnica - Centar za prijave",
+		"SubTitleDescription": "Ispunite prijavu ispod i pošaljite je kad završite.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Prijavi se za %s",
+		"MenuTitle": "Gradska vijećnica - Centar za prijave"
+	},
+	"Discord": {
+		"ApplicationResponses": "Odgovori prijave",
+		"NewApplication": "Nova prijava za %s",
+		"Question": "Pitanje: %s",
+		"QuestionNumber": "Pitanje %s",
+		"Required": " (Obavezno)",
+		"Optional": " (Neobavezno)",
+		"AppInfo": "Podaci o prijavi",
+		"AppResp": "Odgovori prijave",
+		"Submitted": "Poslano",
+		"Status": "Status",
+		"AwaitingReview": "Čeka pregled",
+		"ApplicationSubmitted": "Poslana je nova prijava za posao i spremna je za pregled!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Ottieni un lavoro",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Acquista carta d'identità",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Invia una candidatura",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Hai impostato il tuo lavoro su %s con grado %s.",
+		"JobSetFailed": "Quel lavoro non può essere assegnato in questo momento.",
+		"TooFar": "Sei troppo lontano dal Municipio per farlo.",
+		"IdCardPurchased": "Hai acquistato una nuova carta d'identità per %s.",
+		"NotEnoughMoney": "Non hai abbastanza soldi. Ti servono almeno %s sul conto bancario.",
+		"CannotCarry": "Non puoi portare un'altra carta d'identità.",
+		"NoQuestions": "Questa candidatura non ha domande configurate.",
+		"InvalidApplication": "Questa non è una candidatura valida.",
+		"ApplicationSubmitted": "Hai inviato la candidatura per %s. Attendi una risposta.",
+		"ApplicationFailed": "Le candidature non sono configurate per quel lavoro.",
+		"ApplicationCooldown": "Hai inviato di recente una candidatura. Attendi prima di riprovare."
+	},
+	"JobMenu": {
+		"SubTitle": "Lavoro attuale: %s | Grado: %s",
+		"MenuTitle": "Municipio - Centro lavoro",
+		"SubTitleDescription": "Seleziona un lavoro dall’elenco qui sotto.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Accetta lavoro %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Gestione identità",
+		"SubTitle": "Acquista una nuova carta d'identità",
+		"SubTitleDescription": "Costerà $%s e ti darà una nuova carta d'identità.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Invia candidatura",
+		"NoInput": "Nessun input fornito.",
+		"ApplicationTitle": "Candidatura per %s",
+		"Placeholder1": "Perché vuoi questo lavoro?",
+		"SubTitle": "Municipio - Centro candidature",
+		"SubTitleDescription": "Compila la candidatura qui sotto e inviala quando hai finito.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Candidati per %s",
+		"MenuTitle": "Municipio - Centro candidature"
+	},
+	"Discord": {
+		"ApplicationResponses": "Risposte candidatura",
+		"NewApplication": "Nuova candidatura %s",
+		"Question": "Domanda: %s",
+		"QuestionNumber": "Domanda %s",
+		"Required": " (Obbligatorio)",
+		"Optional": " (Facoltativo)",
+		"AppInfo": "Informazioni candidatura",
+		"AppResp": "Risposte candidatura",
+		"Submitted": "Inviata",
+		"Status": "Stato",
+		"AwaitingReview": "In attesa di revisione",
+		"ApplicationSubmitted": "È stata inviata una nuova candidatura di lavoro ed è pronta per la revisione!"
+	}
+}

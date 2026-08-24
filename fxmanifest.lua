@@ -1,31 +1,45 @@
 fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
+
+name 'MrNewbCityHall'
+description 'City hall jobs, ID cards, and job applications'
 author 'MrNewb'
-description 'A simple, easy to use city hall script with ids, jobs, applications.'
-version '0.0.1'
+version '1.0.0'
 
 shared_scripts {
-	'core/init.lua',
-	'configs/cityhall.lua',
-	'configs/applications.lua',
+    '@ox_lib/init.lua',
+    '@Newb_Bridge/import.lua',
+    'configs/cityhall.lua',
+    'configs/applications.lua',
+    'resource/shared/locale.lua',
+    'resource/shared/applications.lua',
 }
 
 client_scripts {
-	'modules/**/client.lua',
+    'resource/client/menus.lua',
+    'resource/client/registry.lua',
 }
 
 server_scripts {
-	'configs/webhooks.lua',
-	'modules/**/server.lua',
+    'configs/webhooks.lua',
+    'resource/server/discord.lua',
+    'resource/server/cityhall.lua',
 }
 
 files {
-	'locales/*.json'
+    'locales/*.json',
 }
 
 dependencies {
-	'/server:6116',
-	'/onesync',
-	'community_bridge'
+    '/server:6116',
+    '/onesync',
+    'ox_lib',
+    'Newb_Bridge',
+}
+
+escrow_ignore {
+    'configs/*.lua',
+    'locales/*.json',
+    'resource/**/*.lua',
 }

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Zdobądź pracę",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Kup dowód osobisty",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Złóż wniosek",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Ustawiłeś pracę na %s ze stopniem %s.",
+		"JobSetFailed": "Tej pracy nie można teraz przypisać.",
+		"TooFar": "Jesteś zbyt daleko od ratusza, aby to zrobić.",
+		"IdCardPurchased": "Kupiłeś nowy dowód osobisty za %s.",
+		"NotEnoughMoney": "Nie masz wystarczająco pieniędzy. Potrzebujesz co najmniej %s na koncie bankowym.",
+		"CannotCarry": "Nie możesz nieść kolejnego dowodu osobistego.",
+		"NoQuestions": "Ten wniosek nie ma skonfigurowanych pytań.",
+		"InvalidApplication": "To nie jest prawidłowy wniosek.",
+		"ApplicationSubmitted": "Złożyłeś wniosek o %s. Poczekaj na odpowiedź.",
+		"ApplicationFailed": "Wnioski nie są skonfigurowane dla tej pracy.",
+		"ApplicationCooldown": "Niedawno złożyłeś wniosek. Poczekaj przed kolejnym złożeniem."
+	},
+	"JobMenu": {
+		"SubTitle": "Aktualna praca: %s | Stopień: %s",
+		"MenuTitle": "Ratusz - Centrum pracy",
+		"SubTitleDescription": "Wybierz pracę z listy poniżej.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Przyjmij pracę %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Zarządzanie dowodem",
+		"SubTitle": "Kup nowy dowód osobisty",
+		"SubTitleDescription": "To będzie kosztować $%s i da ci nowy dowód osobisty.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Wyślij wniosek",
+		"NoInput": "Nie podano danych.",
+		"ApplicationTitle": "Wniosek o %s",
+		"Placeholder1": "Dlaczego chcesz tę pracę?",
+		"SubTitle": "Ratusz - Centrum wniosków",
+		"SubTitleDescription": "Wypełnij wniosek poniżej i wyślij go, gdy skończysz.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Aplikuj o %s",
+		"MenuTitle": "Ratusz - Centrum wniosków"
+	},
+	"Discord": {
+		"ApplicationResponses": "Odpowiedzi wniosku",
+		"NewApplication": "Nowy wniosek o %s",
+		"Question": "Pytanie: %s",
+		"QuestionNumber": "Pytanie %s",
+		"Required": " (Wymagane)",
+		"Optional": " (Opcjonalne)",
+		"AppInfo": "Informacje o wniosku",
+		"AppResp": "Odpowiedzi wniosku",
+		"Submitted": "Wysłano",
+		"Status": "Status",
+		"AwaitingReview": "Oczekuje na przegląd",
+		"ApplicationSubmitted": "Złożono nowy wniosek o pracę i jest gotowy do przeglądu!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "직업 구하기",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "신분증 구매",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "지원서 제출",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "직업을 %s(등급 %s)(으)로 설정했습니다.",
+		"JobSetFailed": "지금은 해당 직업을 배정할 수 없습니다.",
+		"TooFar": "시청에서 너무 멀어 할 수 없습니다.",
+		"IdCardPurchased": "%s에 새 신분증을 구매했습니다.",
+		"NotEnoughMoney": "돈이 부족합니다. 은행 계좌에 최소 %s가 필요합니다.",
+		"CannotCarry": "신분증을 더 들 수 없습니다.",
+		"NoQuestions": "이 지원서에 설정된 질문이 없습니다.",
+		"InvalidApplication": "유효한 지원서가 아닙니다.",
+		"ApplicationSubmitted": "%s 지원서를 제출했습니다. 응답을 기다려 주세요.",
+		"ApplicationFailed": "해당 직업에는 지원이 설정되어 있지 않습니다.",
+		"ApplicationCooldown": "최근에 지원했습니다. 다시 지원하기 전에 기다려 주세요."
+	},
+	"JobMenu": {
+		"SubTitle": "현재 직업: %s | 등급: %s",
+		"MenuTitle": "시청 - 직업 센터",
+		"SubTitleDescription": "아래 목록에서 직업을 선택하세요.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "%s 직업 수락"
+	},
+	"IdMenu": {
+		"MenuTitle": "신분증 관리",
+		"SubTitle": "새 신분증 구매",
+		"SubTitleDescription": "$%s가 들며 새 신분증이 지급됩니다.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "지원서 제출",
+		"NoInput": "입력이 없습니다.",
+		"ApplicationTitle": "%s 지원서",
+		"Placeholder1": "이 직업을 원하는 이유는 무엇인가요?",
+		"SubTitle": "시청 - 지원 센터",
+		"SubTitleDescription": "아래 지원서를 작성한 뒤 제출하세요.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "%s 지원하기",
+		"MenuTitle": "시청 - 지원 센터"
+	},
+	"Discord": {
+		"ApplicationResponses": "지원 응답",
+		"NewApplication": "새 %s 지원서",
+		"Question": "질문: %s",
+		"QuestionNumber": "질문 %s",
+		"Required": " (필수)",
+		"Optional": " (선택)",
+		"AppInfo": "지원 정보",
+		"AppResp": "지원 응답",
+		"Submitted": "제출됨",
+		"Status": "상태",
+		"AwaitingReview": "검토 대기",
+		"ApplicationSubmitted": "새 직업 지원서가 제출되어 검토할 준비가 되었습니다!"
+	}
+}

@@ -12,12 +12,16 @@
 	},
 	"Notify": {
 		"JobSet": "You have set your job to %s with a grade of %s.",
+		"JobSetFailed": "That job could not be assigned right now.",
 		"TooFar": "You are too far from the City Hall to do that.",
 		"IdCardPurchased": "You have purchased a new ID card for %s.",
 		"NotEnoughMoney": "You do not have enough money to do that. You need at least %s in your bank account.",
-		"NoBankAccount": "You do not have a bank account.",
+		"CannotCarry": "You cannot carry another ID card.",
+		"NoQuestions": "This application has no questions configured.",
 		"InvalidApplication": "That is not a valid application.",
-		"ApplicationSubmitted": "You have submitted your application for %s. Please wait for a response."
+		"ApplicationSubmitted": "You have submitted your application for %s. Please wait for a response.",
+		"ApplicationFailed": "Applications are not configured for that job.",
+		"ApplicationCooldown": "You recently submitted an application. Please wait before applying again."
 	},
 	"JobMenu": {
 		"SubTitle": "Current Job: %s | Grade: %s",

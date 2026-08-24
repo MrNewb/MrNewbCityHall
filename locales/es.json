@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Conseguir un trabajo",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Comprar documento de identidad",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Enviar una solicitud",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Has establecido tu trabajo en %s con grado %s.",
+		"JobSetFailed": "Ese trabajo no se pudo asignar ahora mismo.",
+		"TooFar": "Estás demasiado lejos del Ayuntamiento para hacer eso.",
+		"IdCardPurchased": "Has comprado un nuevo documento de identidad por %s.",
+		"NotEnoughMoney": "No tienes suficiente dinero. Necesitas al menos %s en tu cuenta bancaria.",
+		"CannotCarry": "No puedes llevar otro documento de identidad.",
+		"NoQuestions": "Esta solicitud no tiene preguntas configuradas.",
+		"InvalidApplication": "Esa no es una solicitud válida.",
+		"ApplicationSubmitted": "Has enviado tu solicitud para %s. Espera una respuesta.",
+		"ApplicationFailed": "Las solicitudes no están configuradas para ese trabajo.",
+		"ApplicationCooldown": "Enviaste una solicitud recientemente. Espera antes de volver a solicitar."
+	},
+	"JobMenu": {
+		"SubTitle": "Trabajo actual: %s | Grado: %s",
+		"MenuTitle": "Ayuntamiento - Centro de empleo",
+		"SubTitleDescription": "Selecciona un trabajo de la lista de abajo.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Aceptar trabajo de %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Gestión de identidad",
+		"SubTitle": "Comprar un nuevo documento",
+		"SubTitleDescription": "Costará $%s y te dará un nuevo documento de identidad.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Enviar solicitud",
+		"NoInput": "No se proporcionó ninguna entrada.",
+		"ApplicationTitle": "Solicitud para %s",
+		"Placeholder1": "¿Por qué quieres este trabajo?",
+		"SubTitle": "Ayuntamiento - Centro de solicitudes",
+		"SubTitleDescription": "Completa la solicitud de abajo y envíala cuando termines.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Solicitar %s",
+		"MenuTitle": "Ayuntamiento - Centro de solicitudes"
+	},
+	"Discord": {
+		"ApplicationResponses": "Respuestas de la solicitud",
+		"NewApplication": "Nueva solicitud de %s",
+		"Question": "Pregunta: %s",
+		"QuestionNumber": "Pregunta %s",
+		"Required": " (Obligatorio)",
+		"Optional": " (Opcional)",
+		"AppInfo": "Información de la solicitud",
+		"AppResp": "Respuestas de la solicitud",
+		"Submitted": "Enviado",
+		"Status": "Estado",
+		"AwaitingReview": "En espera de revisión",
+		"ApplicationSubmitted": "Se ha enviado una nueva solicitud de trabajo y está lista para revisar."
+	}
+}

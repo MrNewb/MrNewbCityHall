@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Obtenir un emploi",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Acheter une carte d'identité",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Soumettre une candidature",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Vous avez défini votre emploi sur %s avec le grade %s.",
+		"JobSetFailed": "Cet emploi n'a pas pu être attribué pour le moment.",
+		"TooFar": "Vous êtes trop loin de l'hôtel de ville pour faire cela.",
+		"IdCardPurchased": "Vous avez acheté une nouvelle carte d'identité pour %s.",
+		"NotEnoughMoney": "Vous n'avez pas assez d'argent. Il vous faut au moins %s sur votre compte bancaire.",
+		"CannotCarry": "Vous ne pouvez pas porter une autre carte d'identité.",
+		"NoQuestions": "Cette candidature n'a aucune question configurée.",
+		"InvalidApplication": "Ce n'est pas une candidature valide.",
+		"ApplicationSubmitted": "Vous avez soumis votre candidature pour %s. Veuillez attendre une réponse.",
+		"ApplicationFailed": "Les candidatures ne sont pas configurées pour cet emploi.",
+		"ApplicationCooldown": "Vous avez récemment soumis une candidature. Veuillez attendre avant de postuler à nouveau."
+	},
+	"JobMenu": {
+		"SubTitle": "Emploi actuel : %s | Grade : %s",
+		"MenuTitle": "Hôtel de ville - Centre d’emploi",
+		"SubTitleDescription": "Sélectionnez un emploi dans la liste ci-dessous.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Accepter l’emploi %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Gestion d’identité",
+		"SubTitle": "Acheter une nouvelle carte d'identité",
+		"SubTitleDescription": "Cela coûtera $%s et vous donnera une nouvelle carte d'identité.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Envoyer la candidature",
+		"NoInput": "Aucune saisie fournie.",
+		"ApplicationTitle": "Candidature pour %s",
+		"Placeholder1": "Pourquoi voulez-vous cet emploi ?",
+		"SubTitle": "Hôtel de ville - Centre de candidatures",
+		"SubTitleDescription": "Remplissez la candidature ci-dessous et envoyez-la lorsque vous avez terminé.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Postuler pour %s",
+		"MenuTitle": "Hôtel de ville - Centre de candidatures"
+	},
+	"Discord": {
+		"ApplicationResponses": "Réponses de candidature",
+		"NewApplication": "Nouvelle candidature %s",
+		"Question": "Question : %s",
+		"QuestionNumber": "Question %s",
+		"Required": " (Obligatoire)",
+		"Optional": " (Facultatif)",
+		"AppInfo": "Informations de candidature",
+		"AppResp": "Réponses de candidature",
+		"Submitted": "Envoyée",
+		"Status": "Statut",
+		"AwaitingReview": "En attente de révision",
+		"ApplicationSubmitted": "Une nouvelle candidature a été soumise et est prête à être examinée !"
+	}
+}

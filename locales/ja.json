@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "仕事を得る",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "身分証を購入",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "応募を提出",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "ジョブを %s（グレード %s）に設定しました。",
+		"JobSetFailed": "そのジョブは現在割り当てできません。",
+		"TooFar": "市庁舎から遠すぎて実行できません。",
+		"IdCardPurchased": "%s で新しい身分証を購入しました。",
+		"NotEnoughMoney": "お金が足りません。銀行口座に少なくとも %s 必要です。",
+		"CannotCarry": "これ以上身分証を持てません。",
+		"NoQuestions": "この応募には質問が設定されていません。",
+		"InvalidApplication": "有効な応募ではありません。",
+		"ApplicationSubmitted": "%s への応募を提出しました。返信をお待ちください。",
+		"ApplicationFailed": "そのジョブには応募が設定されていません。",
+		"ApplicationCooldown": "最近応募しました。再度応募する前に待ってください。"
+	},
+	"JobMenu": {
+		"SubTitle": "現在のジョブ: %s | グレード: %s",
+		"MenuTitle": "市庁舎 - ジョブセンター",
+		"SubTitleDescription": "下のリストからジョブを選択してください。",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "%s のジョブを受ける"
+	},
+	"IdMenu": {
+		"MenuTitle": "身分証管理",
+		"SubTitle": "新しい身分証を購入",
+		"SubTitleDescription": "$%s かかり、新しい身分証が付与されます。",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "応募を送信",
+		"NoInput": "入力がありません。",
+		"ApplicationTitle": "%s への応募",
+		"Placeholder1": "なぜこの仕事を希望しますか？",
+		"SubTitle": "市庁舎 - 応募センター",
+		"SubTitleDescription": "下の応募フォームに記入し、完了したら送信してください。",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "%s に応募",
+		"MenuTitle": "市庁舎 - 応募センター"
+	},
+	"Discord": {
+		"ApplicationResponses": "応募の回答",
+		"NewApplication": "新しい %s 応募",
+		"Question": "質問: %s",
+		"QuestionNumber": "質問 %s",
+		"Required": " (必須)",
+		"Optional": " (任意)",
+		"AppInfo": "応募情報",
+		"AppResp": "応募の回答",
+		"Submitted": "提出済み",
+		"Status": "ステータス",
+		"AwaitingReview": "審査待ち",
+		"ApplicationSubmitted": "新しい求人応募が提出され、審査の準備ができました！"
+	}
+}

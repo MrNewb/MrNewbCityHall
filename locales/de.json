@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Job annehmen",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Ausweis kaufen",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Bewerbung einreichen",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Du hast deinen Job auf %s mit Rang %s gesetzt.",
+		"JobSetFailed": "Dieser Job konnte gerade nicht zugewiesen werden.",
+		"TooFar": "Du bist zu weit vom Rathaus entfernt, um das zu tun.",
+		"IdCardPurchased": "Du hast einen neuen Ausweis für %s gekauft.",
+		"NotEnoughMoney": "Du hast nicht genug Geld. Du brauchst mindestens %s auf deinem Bankkonto.",
+		"CannotCarry": "Du kannst keinen weiteren Ausweis tragen.",
+		"NoQuestions": "Für diese Bewerbung sind keine Fragen hinterlegt.",
+		"InvalidApplication": "Das ist keine gültige Bewerbung.",
+		"ApplicationSubmitted": "Du hast deine Bewerbung für %s eingereicht. Bitte warte auf eine Antwort.",
+		"ApplicationFailed": "Für diesen Job sind keine Bewerbungen konfiguriert.",
+		"ApplicationCooldown": "Du hast kürzlich eine Bewerbung eingereicht. Bitte warte, bevor du dich erneut bewirbst."
+	},
+	"JobMenu": {
+		"SubTitle": "Aktueller Job: %s | Rang: %s",
+		"MenuTitle": "Rathaus - Jobcenter",
+		"SubTitleDescription": "Wähle einen Job aus der Liste unten.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Job als %s annehmen"
+	},
+	"IdMenu": {
+		"MenuTitle": "Ausweisverwaltung",
+		"SubTitle": "Neuen Ausweis kaufen",
+		"SubTitleDescription": "Das kostet $%s und gibt dir einen neuen Ausweis.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Bewerbung absenden",
+		"NoInput": "Keine Eingabe vorhanden.",
+		"ApplicationTitle": "Bewerbung für %s",
+		"Placeholder1": "Warum möchtest du diesen Job?",
+		"SubTitle": "Rathaus - Bewerbungszentrum",
+		"SubTitleDescription": "Fülle die Bewerbung unten aus und sende sie ab, wenn du fertig bist.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Für %s bewerben",
+		"MenuTitle": "Rathaus - Bewerbungszentrum"
+	},
+	"Discord": {
+		"ApplicationResponses": "Bewerbungsantworten",
+		"NewApplication": "Neue %s-Bewerbung",
+		"Question": "Frage: %s",
+		"QuestionNumber": "Frage %s",
+		"Required": " (Erforderlich)",
+		"Optional": " (Optional)",
+		"AppInfo": "Bewerbungsinformationen",
+		"AppResp": "Bewerbungsantworten",
+		"Submitted": "Eingereicht",
+		"Status": "Status",
+		"AwaitingReview": "Wartet auf Prüfung",
+		"ApplicationSubmitted": "Eine neue Jobbewerbung wurde eingereicht und ist bereit zur Prüfung!"
+	}
+}

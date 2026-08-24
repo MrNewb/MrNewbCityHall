@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Hanki työ",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Osta henkilökortti",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Lähetä hakemus",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Asetit työksesi %s arvolla %s.",
+		"JobSetFailed": "Tätä työtä ei voitu antaa juuri nyt.",
+		"TooFar": "Olet liian kaukana kaupungintalosta tehdaksesi sen.",
+		"IdCardPurchased": "Ostit uuden henkilökortin hintaan %s.",
+		"NotEnoughMoney": "Sinulla ei ole tarpeeksi rahaa. Tarvitset vähintään %s pankkitililläsi.",
+		"CannotCarry": "Et voi kantaa toista henkilökorttia.",
+		"NoQuestions": "Tälle hakemukselle ei ole määritetty kysymyksiä.",
+		"InvalidApplication": "Tämä ei ole kelvollinen hakemus.",
+		"ApplicationSubmitted": "Lähetit hakemuksesi työhön %s. Odota vastausta.",
+		"ApplicationFailed": "Hakemuksia ei ole määritetty kyseiselle työlle.",
+		"ApplicationCooldown": "Lähetit juuri hakemuksen. Odota ennen uutta hakemusta."
+	},
+	"JobMenu": {
+		"SubTitle": "Nykyinen työ: %s | Arvo: %s",
+		"MenuTitle": "Kaupungintalo - Työkeskus",
+		"SubTitleDescription": "Valitse työ alla olevasta listasta.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Hyväksy työ %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Henkilökortin hallinta",
+		"SubTitle": "Osta uusi henkilökortti",
+		"SubTitleDescription": "Se maksaa $%s ja antaa sinulle uuden henkilökortin.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Lähetä hakemus",
+		"NoInput": "Syötettä ei annettu.",
+		"ApplicationTitle": "Hakemus: %s",
+		"Placeholder1": "Miksi haluat tämän työn?",
+		"SubTitle": "Kaupungintalo - Hakemuskeskus",
+		"SubTitleDescription": "Täytä alla oleva hakemus ja lähetä se, kun olet valmis.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Hae työtä %s",
+		"MenuTitle": "Kaupungintalo - Hakemuskeskus"
+	},
+	"Discord": {
+		"ApplicationResponses": "Hakemuksen vastaukset",
+		"NewApplication": "Uusi %s-hakemus",
+		"Question": "Kysymys: %s",
+		"QuestionNumber": "Kysymys %s",
+		"Required": " (Pakollinen)",
+		"Optional": " (Valinnainen)",
+		"AppInfo": "Hakemustiedot",
+		"AppResp": "Hakemuksen vastaukset",
+		"Submitted": "Lähetetty",
+		"Status": "Tila",
+		"AwaitingReview": "Odottaa tarkistusta",
+		"ApplicationSubmitted": "Uusi työhakemus on lähetetty ja valmis tarkistettavaksi!"
+	}
+}

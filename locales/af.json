@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Kry 'n werk",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Koop ID-kaart",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Dien aansoek in",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Jy het jou werk na %s met graad %s gestel.",
+		"JobSetFailed": "Daardie werk kon nie nou toegeken word nie.",
+		"TooFar": "Jy is te ver van die Stadsaal om dit te doen.",
+		"IdCardPurchased": "Jy het 'n nuwe ID-kaart vir %s gekoop.",
+		"NotEnoughMoney": "Jy het nie genoeg geld nie. Jy benodig ten minste %s in jou bankrekening.",
+		"CannotCarry": "Jy kan nie nog 'n ID-kaart dra nie.",
+		"NoQuestions": "Hierdie aansoek het geen vrae nie.",
+		"InvalidApplication": "Dit is nie 'n geldige aansoek nie.",
+		"ApplicationSubmitted": "Jy het jou aansoek vir %s ingedien. Wag asseblief vir 'n antwoord.",
+		"ApplicationFailed": "Aansoeke is nie vir daardie werk opgestel nie.",
+		"ApplicationCooldown": "Jy het onlangs 'n aansoek ingedien. Wag asseblief voor jy weer aansoek doen."
+	},
+	"JobMenu": {
+		"SubTitle": "Huidige werk: %s | Graad: %s",
+		"MenuTitle": "Stadsaal - Werksentrum",
+		"SubTitleDescription": "Kies 'n werk uit die lys hieronder.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Aanvaar werk na %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "ID-bestuur",
+		"SubTitle": "Koop 'n nuwe ID-kaart",
+		"SubTitleDescription": "Dit sal $%s kos en gee jou 'n nuwe ID-kaart.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Dien aansoek in",
+		"NoInput": "Geen invoer verskaf nie.",
+		"ApplicationTitle": "Aansoek vir %s",
+		"Placeholder1": "Hoekom wil jy hierdie werk he?",
+		"SubTitle": "Stadsaal - Aansoeksentrum",
+		"SubTitleDescription": "Vul die aansoek hieronder in en dien dit in wanneer jy klaar is.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Doen aansoek vir %s",
+		"MenuTitle": "Stadsaal - Aansoeksentrum"
+	},
+	"Discord": {
+		"ApplicationResponses": "Aansoekantwoorde",
+		"NewApplication": "Nuwe %s-aansoek",
+		"Question": "Vraag: %s",
+		"QuestionNumber": "Vraag %s",
+		"Required": " (Verpligtend)",
+		"Optional": " (Opsioneel)",
+		"AppInfo": "Aansoekinligting",
+		"AppResp": "Aansoekantwoorde",
+		"Submitted": "Ingedien",
+		"Status": "Status",
+		"AwaitingReview": "Wag vir hersiening",
+		"ApplicationSubmitted": "n Nuwe werkaansoek is ingedien en is gereed vir hersiening!"
+	}
+}

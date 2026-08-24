@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Вземи работа",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Купи лична карта",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Подай заявление",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Зададохте работата си на %s със степен %s.",
+		"JobSetFailed": "Тази работа не може да бъде назначена в момента.",
+		"TooFar": "Твърде далеч сте от кметството, за да направите това.",
+		"IdCardPurchased": "Купихте нова лична карта за %s.",
+		"NotEnoughMoney": "Нямате достатъчно пари. Нуждаете се от поне %s в банковата си сметка.",
+		"CannotCarry": "Не можете да носите друга лична карта.",
+		"NoQuestions": "Това заявление няма конфигурирани въпроси.",
+		"InvalidApplication": "Това не е валидно заявление.",
+		"ApplicationSubmitted": "Подадохте заявлението си за %s. Моля, изчакайте отговор.",
+		"ApplicationFailed": "Заявленията не са конфигурирани за тази работа.",
+		"ApplicationCooldown": "Наскоро подадохте заявление. Моля, изчакайте преди да кандидатствате отново."
+	},
+	"JobMenu": {
+		"SubTitle": "Текуща работа: %s | Степен: %s",
+		"MenuTitle": "Кметство - Център за работа",
+		"SubTitleDescription": "Изберете работа от списъка по-долу.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Приеми работа към %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Управление на лична карта",
+		"SubTitle": "Купи нова лична карта",
+		"SubTitleDescription": "Това ще струва $%s и ще ви даде нова лична карта.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Изпрати заявление",
+		"NoInput": "Не е въведено нищо.",
+		"ApplicationTitle": "Заявление за %s",
+		"Placeholder1": "Защо искате тази работа?",
+		"SubTitle": "Кметство - Център за заявления",
+		"SubTitleDescription": "Попълнете заявлението по-долу и го изпратете, когато сте готови.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Кандидатствай за %s",
+		"MenuTitle": "Кметство - Център за заявления"
+	},
+	"Discord": {
+		"ApplicationResponses": "Отговори на заявлението",
+		"NewApplication": "Ново заявление за %s",
+		"Question": "Въпрос: %s",
+		"QuestionNumber": "Въпрос %s",
+		"Required": " (Задължително)",
+		"Optional": " (По избор)",
+		"AppInfo": "Информация за заявлението",
+		"AppResp": "Отговори на заявлението",
+		"Submitted": "Изпратено",
+		"Status": "Статус",
+		"AwaitingReview": "Изчаква преглед",
+		"ApplicationSubmitted": "Подадено е ново заявление за работа и е готово за преглед!"
+	}
+}

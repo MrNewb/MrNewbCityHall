@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Gauti darbą",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Pirkti asmens tapatybės kortelę",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Pateikti paraišką",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Nustatėte darbą į %s su lygiu %s.",
+		"JobSetFailed": "Šio darbo dabar priskirti nepavyko.",
+		"TooFar": "Esate per toli nuo rotušės, kad tai padarytumėte.",
+		"IdCardPurchased": "Nusipirkote naują asmens tapatybės kortelę už %s.",
+		"NotEnoughMoney": "Neturite pakankamai pinigų. Banko sąskaitoje reikia bent %s.",
+		"CannotCarry": "Negalite neštis dar vienos asmens tapatybės kortelės.",
+		"NoQuestions": "Šiai paraiškai nėra sukonfigūruotų klausimų.",
+		"InvalidApplication": "Tai nėra galiojanti paraiška.",
+		"ApplicationSubmitted": "Pateikėte paraišką darbui %s. Palaukite atsakymo.",
+		"ApplicationFailed": "Šiam darbui paraiškos nesukonfigūruotos.",
+		"ApplicationCooldown": "Neseniai pateikėte paraišką. Palaukite prieš teikdami dar kartą."
+	},
+	"JobMenu": {
+		"SubTitle": "Dabartinis darbas: %s | Lygis: %s",
+		"MenuTitle": "Rotušė - Darbo centras",
+		"SubTitleDescription": "Pasirinkite darbą iš sąrašo žemiau.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Priimti darbą %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Tapatybės valdymas",
+		"SubTitle": "Pirkti naują asmens tapatybės kortelę",
+		"SubTitleDescription": "Tai kainuos $%s ir suteiks naują asmens tapatybės kortelę.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Pateikti paraišką",
+		"NoInput": "Nieko neįvesta.",
+		"ApplicationTitle": "Paraiška darbui %s",
+		"Placeholder1": "Kodėl norite šio darbo?",
+		"SubTitle": "Rotušė - Paraiškų centras",
+		"SubTitleDescription": "Užpildykite paraišką žemiau ir pateikite, kai baigsite.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Teikti paraišką %s",
+		"MenuTitle": "Rotušė - Paraiškų centras"
+	},
+	"Discord": {
+		"ApplicationResponses": "Paraiškos atsakymai",
+		"NewApplication": "Nauja %s paraiška",
+		"Question": "Klausimas: %s",
+		"QuestionNumber": "Klausimas %s",
+		"Required": " (Privaloma)",
+		"Optional": " (Neprivaloma)",
+		"AppInfo": "Paraiškos informacija",
+		"AppResp": "Paraiškos atsakymai",
+		"Submitted": "Pateikta",
+		"Status": "Būsena",
+		"AwaitingReview": "Laukia peržiūros",
+		"ApplicationSubmitted": "Pateikta nauja darbo paraiška ir ji paruošta peržiūrai!"
+	}
+}

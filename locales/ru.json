@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Получить работу",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Купить удостоверение",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Подать заявку",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Вы установили работу %s с рангом %s.",
+		"JobSetFailed": "Эту работу сейчас нельзя назначить.",
+		"TooFar": "Вы слишком далеко от мэрии, чтобы сделать это.",
+		"IdCardPurchased": "Вы купили новое удостоверение за %s.",
+		"NotEnoughMoney": "У вас недостаточно денег. Нужно как минимум %s на банковском счёте.",
+		"CannotCarry": "Вы не можете нести ещё одно удостоверение.",
+		"NoQuestions": "Для этой заявки не настроены вопросы.",
+		"InvalidApplication": "Это недействительная заявка.",
+		"ApplicationSubmitted": "Вы подали заявку на %s. Подождите ответа.",
+		"ApplicationFailed": "Заявки не настроены для этой работы.",
+		"ApplicationCooldown": "Вы недавно подали заявку. Подождите перед повторной подачей."
+	},
+	"JobMenu": {
+		"SubTitle": "Текущая работа: %s | Ранг: %s",
+		"MenuTitle": "Мэрия - Центр занятости",
+		"SubTitleDescription": "Выберите работу из списка ниже.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Принять работу %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Управление удостоверением",
+		"SubTitle": "Купить новое удостоверение",
+		"SubTitleDescription": "Это будет стоить $%s и даст вам новое удостоверение.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Отправить заявку",
+		"NoInput": "Данные не введены.",
+		"ApplicationTitle": "Заявка на %s",
+		"Placeholder1": "Почему вы хотите эту работу?",
+		"SubTitle": "Мэрия - Центр заявок",
+		"SubTitleDescription": "Заполните заявку ниже и отправьте её, когда закончите.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Подать заявку на %s",
+		"MenuTitle": "Мэрия - Центр заявок"
+	},
+	"Discord": {
+		"ApplicationResponses": "Ответы заявки",
+		"NewApplication": "Новая заявка %s",
+		"Question": "Вопрос: %s",
+		"QuestionNumber": "Вопрос %s",
+		"Required": " (Обязательно)",
+		"Optional": " (Необязательно)",
+		"AppInfo": "Информация о заявке",
+		"AppResp": "Ответы заявки",
+		"Submitted": "Отправлено",
+		"Status": "Статус",
+		"AwaitingReview": "Ожидает проверки",
+		"ApplicationSubmitted": "Новая заявка на работу отправлена и готова к проверке!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "İş al",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Kimlik kartı satın al",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Başvuru gönder",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "İşinizi %s olarak %s rütbesiyle ayarladınız.",
+		"JobSetFailed": "Bu iş şu anda atanamadı.",
+		"TooFar": "Bunu yapmak için belediyeden çok uzaksınız.",
+		"IdCardPurchased": "%s karşılığında yeni bir kimlik kartı satın aldınız.",
+		"NotEnoughMoney": "Yeterli paranız yok. Banka hesabınızda en az %s olmalı.",
+		"CannotCarry": "Başka bir kimlik kartı taşıyamazsınız.",
+		"NoQuestions": "Bu başvuru için soru yapılandırılmamış.",
+		"InvalidApplication": "Bu geçerli bir başvuru değil.",
+		"ApplicationSubmitted": "%s için başvurunuzu gönderdiniz. Lütfen yanıt bekleyin.",
+		"ApplicationFailed": "Bu iş için başvurular yapılandırılmamış.",
+		"ApplicationCooldown": "Yakın zamanda başvuru gönderdiniz. Tekrar başvurmadan önce bekleyin."
+	},
+	"JobMenu": {
+		"SubTitle": "Mevcut iş: %s | Rütbe: %s",
+		"MenuTitle": "Belediye - İş Merkezi",
+		"SubTitleDescription": "Aşağıdaki listeden bir iş seçin.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "%s işini kabul et"
+	},
+	"IdMenu": {
+		"MenuTitle": "Kimlik yönetimi",
+		"SubTitle": "Yeni kimlik kartı satın al",
+		"SubTitleDescription": "Bu $%s tutacak ve size yeni bir kimlik kartı verecek.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Başvuruyu gönder",
+		"NoInput": "Giriş sağlanmadı.",
+		"ApplicationTitle": "%s başvurusu",
+		"Placeholder1": "Bu işi neden istiyorsunuz?",
+		"SubTitle": "Belediye - Başvuru Merkezi",
+		"SubTitleDescription": "Aşağıdaki başvuruyu doldurun ve bitince gönderin.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "%s için başvur",
+		"MenuTitle": "Belediye - Başvuru Merkezi"
+	},
+	"Discord": {
+		"ApplicationResponses": "Başvuru yanıtları",
+		"NewApplication": "Yeni %s başvurusu",
+		"Question": "Soru: %s",
+		"QuestionNumber": "Soru %s",
+		"Required": " (Zorunlu)",
+		"Optional": " (İsteğe bağlı)",
+		"AppInfo": "Başvuru bilgisi",
+		"AppResp": "Başvuru yanıtları",
+		"Submitted": "Gönderildi",
+		"Status": "Durum",
+		"AwaitingReview": "İnceleme bekleniyor",
+		"ApplicationSubmitted": "Yeni bir iş başvurusu gönderildi ve incelemeye hazır!"
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Získat práci",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Koupit občanský průkaz",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Odeslat žádost",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Nastavili jste práci na %s se stupněm %s.",
+		"JobSetFailed": "Tuto práci nyní nelze přiřadit.",
+		"TooFar": "Jste příliš daleko od radnice, abyste to mohli udělat.",
+		"IdCardPurchased": "Zakoupili jste nový občanský průkaz za %s.",
+		"NotEnoughMoney": "Nemáte dost peněz. Potřebujete alespoň %s na bankovním účtu.",
+		"CannotCarry": "Nemůžete nést další občanský průkaz.",
+		"NoQuestions": "Tato žádost nemá nakonfigurované otázky.",
+		"InvalidApplication": "To není platná žádost.",
+		"ApplicationSubmitted": "Odeslali jste žádost o %s. Počkejte prosím na odpověď.",
+		"ApplicationFailed": "Žádosti nejsou pro tuto práci nastaveny.",
+		"ApplicationCooldown": "Nedávno jste odeslali žádost. Před dalším podáním počkejte."
+	},
+	"JobMenu": {
+		"SubTitle": "Aktuální práce: %s | Stupeň: %s",
+		"MenuTitle": "Radnice - Pracovní centrum",
+		"SubTitleDescription": "Vyberte práci ze seznamu níže.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Přijmout práci %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "Správa průkazu",
+		"SubTitle": "Koupit nový občanský průkaz",
+		"SubTitleDescription": "Bude to stát $%s a získáte nový občanský průkaz.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Odeslat žádost",
+		"NoInput": "Nebyl zadán žádný vstup.",
+		"ApplicationTitle": "Žádost o %s",
+		"Placeholder1": "Proč chcete tuto práci?",
+		"SubTitle": "Radnice - Centrum žádostí",
+		"SubTitleDescription": "Vyplňte žádost níže a odešlete ji, až budete hotovi.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Žádat o %s",
+		"MenuTitle": "Radnice - Centrum žádostí"
+	},
+	"Discord": {
+		"ApplicationResponses": "Odpovědi žádosti",
+		"NewApplication": "Nová žádost o %s",
+		"Question": "Otázka: %s",
+		"QuestionNumber": "Otázka %s",
+		"Required": " (Povinné)",
+		"Optional": " (Volitelné)",
+		"AppInfo": "Informace o žádosti",
+		"AppResp": "Odpovědi žádosti",
+		"Submitted": "Odesláno",
+		"Status": "Stav",
+		"AwaitingReview": "Čeká na kontrolu",
+		"ApplicationSubmitted": "Byla odeslána nová pracovní žádost a je připravena ke kontrole!"
+	}
+}

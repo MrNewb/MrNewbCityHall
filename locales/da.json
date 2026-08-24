@@ -1,0 +1,64 @@
+{
+	"Target": {
+		"CityHallLabel": "Få et job",
+		"CityHallColor": "orange",
+		"CityHallIcon": "fa-solid fa-briefcase",
+		"IdCardLabel": "Køb ID-kort",
+		"IdCardColor": "blue",
+		"IdCardIcon": "fa-solid fa-id-card",
+		"ApplyLabel": "Indsend ansøgning",
+		"ApplyColor": "green",
+		"ApplyIcon": "fa-solid fa-file"
+	},
+	"Notify": {
+		"JobSet": "Du har sat dit job til %s med grad %s.",
+		"JobSetFailed": "Det job kunne ikke tildeles lige nu.",
+		"TooFar": "Du er for langt fra rådhuset til at gøre det.",
+		"IdCardPurchased": "Du har købt et nyt ID-kort for %s.",
+		"NotEnoughMoney": "Du har ikke nok penge. Du skal bruge mindst %s på din bankkonto.",
+		"CannotCarry": "Du kan ikke bære endnu et ID-kort.",
+		"NoQuestions": "Denne ansøgning har ingen spørgsmål konfigureret.",
+		"InvalidApplication": "Det er ikke en gyldig ansøgning.",
+		"ApplicationSubmitted": "Du har indsendt din ansøgning til %s. Vent venligst på svar.",
+		"ApplicationFailed": "Ansøgninger er ikke konfigureret til det job.",
+		"ApplicationCooldown": "Du har for nylig indsendt en ansøgning. Vent før du ansøger igen."
+	},
+	"JobMenu": {
+		"SubTitle": "Nuværende job: %s | Grad: %s",
+		"MenuTitle": "Rådhus - Jobcenter",
+		"SubTitleDescription": "Vælg et job fra listen nedenfor.",
+		"SubTitleIcon": "fa-solid fa-building",
+		"SubTitleOption": "Accepter job til %s"
+	},
+	"IdMenu": {
+		"MenuTitle": "ID-administration",
+		"SubTitle": "Køb et nyt ID-kort",
+		"SubTitleDescription": "Det koster $%s og giver dig et nyt ID-kort.",
+		"SubTitleIcon": "fa-solid fa-id-card"
+	},
+	"ApplicationMenu": {
+		"Submit": "Indsend ansøgning",
+		"NoInput": "Ingen input angivet.",
+		"ApplicationTitle": "Ansøgning til %s",
+		"Placeholder1": "Hvorfor vil du have dette job?",
+		"SubTitle": "Rådhus - Ansøgningscenter",
+		"SubTitleDescription": "Udfyld ansøgningen nedenfor, og indsend den, når du er færdig.",
+		"SubTitleIcon": "fa-solid fa-file",
+		"SubTitleOption": "Ansøg om %s",
+		"MenuTitle": "Rådhus - Ansøgningscenter"
+	},
+	"Discord": {
+		"ApplicationResponses": "Ansøgningssvar",
+		"NewApplication": "Ny %s-ansøgning",
+		"Question": "Spørgsmål: %s",
+		"QuestionNumber": "Spørgsmål %s",
+		"Required": " (Påkrævet)",
+		"Optional": " (Valgfrit)",
+		"AppInfo": "Ansøgningsoplysninger",
+		"AppResp": "Ansøgningssvar",
+		"Submitted": "Indsendt",
+		"Status": "Status",
+		"AwaitingReview": "Afventer gennemgang",
+		"ApplicationSubmitted": "En ny jobansøgning er indsendt og klar til gennemgang!"
+	}
+}
