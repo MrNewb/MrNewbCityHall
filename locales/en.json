@@ -11,41 +11,41 @@
 		"ApplyIcon": "fa-solid fa-file"
 	},
 	"Notify": {
-		"JobSet": "You have set your job to %s with a grade of %s.",
-		"JobSetFailed": "That job could not be assigned right now.",
-		"TooFar": "You are too far from the City Hall to do that.",
-		"IdCardPurchased": "You have purchased a new ID card for %s.",
-		"NotEnoughMoney": "You do not have enough money to do that. You need at least %s in your bank account.",
-		"CannotCarry": "You cannot carry another ID card.",
-		"NoQuestions": "This application has no questions configured.",
-		"InvalidApplication": "That is not a valid application.",
-		"ApplicationSubmitted": "You have submitted your application for %s. Please wait for a response.",
-		"ApplicationFailed": "Applications are not configured for that job.",
-		"ApplicationCooldown": "You recently submitted an application. Please wait before applying again."
+		"JobSet": "You're now %s (grade %s).",
+		"JobSetFailed": "Couldnt set that job.",
+		"TooFar": "Get closer to City Hall.",
+		"IdCardPurchased": "Bought an ID card for $%s.",
+		"NotEnoughMoney": "You need at least $%s in the bank.",
+		"CannotCarry": "You cant carry another ID card.",
+		"NoQuestions": "This application aint set up.",
+		"InvalidApplication": "That application aint here.",
+		"ApplicationSubmitted": "Application in for %s. Now you wait.",
+		"ApplicationFailed": "No application for that job.",
+		"ApplicationCooldown": "You just applied. Wait a bit."
 	},
 	"JobMenu": {
 		"SubTitle": "Current Job: %s | Grade: %s",
-		"MenuTitle": "City Hall - Job Center",
-		"SubTitleDescription": "Select a job from the list below.",
+		"MenuTitle": "City Hall",
+		"SubTitleDescription": "Pick a job.",
 		"SubTitleIcon": "fa-solid fa-building",
-		"SubTitleOption": "Accept job to %s"
+		"SubTitleOption": "Take the %s job"
 	},
 	"IdMenu": {
-		"MenuTitle": "Id Management",
-		"SubTitle": "Purchase a New ID Card",
-		"SubTitleDescription": "This will cost $%s and will give you a new ID card.",
+		"MenuTitle": "ID Card",
+		"SubTitle": "Buy a new ID",
+		"SubTitleDescription": "This'll cost $%s.",
 		"SubTitleIcon": "fa-solid fa-id-card"
 	},
 	"ApplicationMenu": {
 		"Submit": "Submit Application",
-		"NoInput": "No input provided.",
+		"NoInput": "You didnt fill that out.",
 		"ApplicationTitle": "Application for %s",
 		"Placeholder1": "Why do you want this job?",
-		"SubTitle": "City Hall - Application Center",
-		"SubTitleDescription": "Fill out the application below and submit it when you are done.",
+		"SubTitle": "Applications",
+		"SubTitleDescription": "Fill this out and send it in.",
 		"SubTitleIcon": "fa-solid fa-file",
 		"SubTitleOption": "Apply for %s",
-		"MenuTitle": "City Hall - Application Center"
+		"MenuTitle": "Applications"
 	},
 	"Discord": {
 		"ApplicationResponses": "Application Responses",
@@ -59,6 +59,6 @@
 		"Submitted": "Submitted",
 		"Status": "Status",
 		"AwaitingReview": "Awaiting Review",
-		"ApplicationSubmitted": "A new job application has been submitted and is ready for review!"
+		"ApplicationSubmitted": "New application, go look at it."
 	}
 }

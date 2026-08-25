@@ -11,8 +11,7 @@ local function findCityHallNearPlayer(src, locationId)
 	local locationCoords = cityHall.location
 	local maxDistance = (Config.InteractDistance or 5.0) + 1.0
 	if #(GetEntityCoords(playerPed) - vector3(locationCoords.x, locationCoords.y, locationCoords.z)) > maxDistance then
-		bridge.notifications.notify(src, { description = locale('Notify.TooFar'), type = 'error' })
-		return
+		return bridge.notifications.notify(src, { description = locale('Notify.TooFar'), type = 'error' })
 	end
 
 	return cityHall
@@ -26,10 +25,7 @@ local function assignCityHallJob(src, locationId, jobName)
 	local jobGrade = tonumber(cityHall.availableJobs and cityHall.availableJobs[jobName])
 	if jobGrade == nil then return false end
 
-	if not bridge.framework.setPlayerJob(src, jobName, jobGrade) then
-		bridge.notifications.notify(src, { description = locale('Notify.JobSetFailed'), type = 'error' })
-		return false
-	end
+	if not bridge.framework.setPlayerJob(src, jobName, jobGrade) then return false, bridge.notifications.notify(src, { description = locale('Notify.JobSetFailed'), type = 'error' }) end
 
 	bridge.notifications.notify(src, { description = locale('Notify.JobSet', jobName, jobGrade), type = 'success' })
 	return true
@@ -43,38 +39,32 @@ local function purchaseIdCard(src, locationId)
 
 	local idCardItem = Config.IdCardItem or 'id_card'
 	local bankBalance = tonumber(bridge.framework.getMoney(src, 'bank')) or 0
-	if bankBalance < idCardPrice then
-		bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' })
-		return false
-	end
+	if bankBalance < 0 then return false, bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' }) end
+	if bankBalance < idCardPrice then return false, bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' }) end
 
 	if idCardPrice > 0 and not bridge.framework.removeMoney(src, 'bank', idCardPrice, 'cityhall_id_card') then
-		bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' })
-		return false
+		return false, bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' })
 	end
 
-	local idCardIssued = false
 	if GetResourceState('um-idcard') == 'started' then
 		exports['um-idcard']:CreateMetaLicense(src, idCardItem)
-		idCardIssued = true
 	elseif GetResourceState('bl_idcard') == 'started' then
 		exports.bl_idcard:createLicense(src, idCardItem)
-		idCardIssued = true
-	elseif not bridge.inventory.canCarryItem(src, idCardItem, 1) then
+	else
+		if not bridge.inventory.canCarryItem(src, idCardItem, 1) then
+			if idCardPrice > 0 then bridge.framework.addMoney(src, 'bank', idCardPrice, 'cityhall_id_card_refund') end
+			return false, bridge.notifications.notify(src, { description = locale('Notify.CannotCarry'), type = 'error' })
+		end
+
 		local identifier = bridge.framework.getIdentifier(src)
 		local _, firstName, lastName = bridge.framework.getCharacterName(identifier)
-		idCardIssued = bridge.inventory.addItem(src, idCardItem, 1, {
+		if not bridge.inventory.addItem(src, idCardItem, 1, {
 			description = ('%s %s'):format(firstName or '', lastName or ''),
 			dob = bridge.framework.getPlayerDob(src),
-		}) and true or false
-	end
-
-	if not idCardIssued then
-		if idCardPrice > 0 then
-			bridge.framework.addMoney(src, 'bank', idCardPrice, 'cityhall_id_card_refund')
+		}) then
+			if idCardPrice > 0 then bridge.framework.addMoney(src, 'bank', idCardPrice, 'cityhall_id_card_refund') end
+			return false, bridge.notifications.notify(src, { description = locale('Notify.CannotCarry'), type = 'error' })
 		end
-		bridge.notifications.notify(src, { description = locale('Notify.CannotCarry'), type = 'error' })
-		return false
 	end
 
 	bridge.notifications.notify(src, { description = locale('Notify.IdCardPurchased', idCardPrice), type = 'success' })
@@ -93,8 +83,7 @@ local function submitJobApplication(src, locationId, applicationType, answers)
 	local cooldownSeconds = tonumber(Config.ApplicationCooldown) or 60
 	local currentTime = os.time()
 	if cooldownSeconds > 0 and (applicationCooldownByIdentifier[identifier] or 0) + cooldownSeconds > currentTime then
-		bridge.notifications.notify(src, { description = locale('Notify.ApplicationCooldown'), type = 'error' })
-		return false
+		return false, bridge.notifications.notify(src, { description = locale('Notify.ApplicationCooldown'), type = 'error' })
 	end
 
 	local validatedAnswers = {}
@@ -105,8 +94,7 @@ local function submitJobApplication(src, locationId, applicationType, answers)
 	local _, firstName, lastName = bridge.framework.getCharacterName(identifier)
 	local characterName = ('%s %s'):format(firstName or '', lastName or '')
 	if not SubmitDiscordLog(applicationType, validatedAnswers, characterName, identifier) then
-		bridge.notifications.notify(src, { description = locale('Notify.ApplicationFailed'), type = 'error' })
-		return false
+		return false, bridge.notifications.notify(src, { description = locale('Notify.ApplicationFailed'), type = 'error' })
 	end
 
 	applicationCooldownByIdentifier[identifier] = currentTime

@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbCityHall'
 description 'City hall jobs, ID cards, and job applications'
 author 'MrNewb'
-version '1.0.0'
+version '1.0.1'
 
 shared_scripts {
     '@ox_lib/init.lua',
