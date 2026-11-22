@@ -59,6 +59,13 @@
 		"Submitted": "Submitted",
 		"Status": "Status",
 		"AwaitingReview": "Awaiting Review",
-		"ApplicationSubmitted": "New application, go look at it."
+		"ApplicationSubmitted": "New application, go look at it.",
+		"BotName": "City Hall Applications",
+		"Footer": "City Hall Application System",
+		"NoResponse": "No response provided",
+		"NoQuestions": "No questions configured for this application type",
+		"Truncated": "*Response was too long and has been shortened...*",
+		"ApplicantInfo": "Name: %s | Player ID: %s",
+		"Anonymous": "Anonymous Applicant"
 	}
 }

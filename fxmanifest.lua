@@ -5,14 +5,17 @@ lua54 'yes'
 name 'MrNewbCityHall'
 description 'City hall jobs, ID cards, and job applications'
 author 'MrNewb'
-version '1.0.2'
+version '1.0.3'
+
+ox_libs {
+    'locale',
+}
 
 shared_scripts {
     '@ox_lib/init.lua',
     '@Newb_Bridge/import.lua',
     'resource/open/shared/cityhall.lua',
     'resource/open/shared/applications.lua',
-    'resource/modules/core/shared/locale.lua',
     'resource/modules/applications/shared/applications.lua',
 }
 

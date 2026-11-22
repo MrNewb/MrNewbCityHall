@@ -3,33 +3,33 @@ local cityHallBlips = {}
 
 local function createCityHallBlip(coords, blipData, locationId)
 	local blipHandle = AddBlipForCoord(coords.x, coords.y, coords.z)
-	SetBlipSprite(blipHandle, blipData.sprite or 1)
-	SetBlipColour(blipHandle, blipData.color or 0)
-	SetBlipScale(blipHandle, blipData.scale or 0.8)
+	SetBlipSprite(blipHandle, blipData.sprite)
+	SetBlipColour(blipHandle, blipData.color)
+	SetBlipScale(blipHandle, blipData.scale)
 	SetBlipAsShortRange(blipHandle, true)
 	BeginTextCommandSetBlipName('STRING')
-	AddTextComponentSubstringPlayerName(blipData.label or locationId)
+	AddTextComponentSubstringPlayerName(blipData.label)
 	EndTextCommandSetBlipName(blipHandle)
 	return blipHandle
 end
 
 function CreateCityHallLocations()
-	local interactionDistance = Config.InteractDistance or 5.0
+	local interactionDistance = Config.InteractDistance
 
-	for locationId, cityHall in pairs(Config.CityHallLocations or {}) do
+	for locationId, cityHall in pairs(Config.CityHallLocations) do
 		if not activeCityHallInteractions[locationId] and cityHall.location then
 			local locationCoords = cityHall.location
 			local interactionId = ('mrnewb_cityhall_%s'):format(locationId:gsub('%s+', '_'):lower())
-			local availableJobs = cityHall.availableJobs or {}
+			local availableJobs = cityHall.availableJobs
 
 			if cityHall.blipData then
 				cityHallBlips[locationId] = createCityHallBlip(locationCoords, cityHall.blipData, locationId)
 			end
 
 			exports[bridge.name]:AddInteraction(interactionId, {
-				model = cityHall.model or 's_m_y_hwaycop_01',
+				model = cityHall.model,
 				coords = vector3(locationCoords.x, locationCoords.y, locationCoords.z),
-				heading = locationCoords.w or 0.0,
+				heading = locationCoords.w,
 				radius = 150.0,
 				options = {
 					{

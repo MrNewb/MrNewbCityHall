@@ -2,18 +2,18 @@
 
 City hall NPCs for ID replacements, walk-up jobs, and applications with optional Discord webhooks.
 
-[Documentation](https://mrnewb.github.io/docs/mrnewbcityhall) · [Install guide](https://mrnewb.github.io/docs/mrnewbcityhall/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts)
+[Documentation](https://mrnewb.github.io/docs/mrnewbcityhall) | [Install guide](https://mrnewb.github.io/docs/mrnewbcityhall/install) | [Tebex](https://mrnewbscripts.tebex.io/) | [Discord](https://discord.gg/mrnewbscripts)
 
 Documentation is available at https://mrnewb.github.io/docs/
 
 ## Features
 
-- Walk-up job assignment per desk (`availableJobs` → grade)
+- Walk-up job assignment per desk (`availableJobs` to grade)
 - Bank-paid ID replacement via `um-idcard`, `bl_idcard`, or an `id_card` inventory item
 - Job applications with Discord webhooks
 - Multiple desks, optional map blips, target via the bridge
 - Application cooldown per character (in memory)
-- Webhook URLs stay **server-only** — empty or missing URLs reject the submit
+- Webhook URLs stay **server-only** - empty or missing URLs reject the submit
 
 ## Install
 

@@ -9,12 +9,12 @@ function OpenJobMenu(locationId, availableJobs)
 		},
 	}
 
-	for jobName in pairs(availableJobs or {}) do
+	for jobName in pairs(availableJobs) do
 		menuOptions[#menuOptions + 1] = {
 			title = locale('JobMenu.SubTitleOption', jobName),
 			icon = locale('JobMenu.SubTitleIcon'),
 			onSelect = function()
-				lib.callback.await('MrNewbCityHall:Callback:SetJob', false, locationId, jobName)
+				lib.callback.await('MrNewbCityHall:server:selectedJob', false, locationId, jobName)
 			end,
 		}
 	end
@@ -36,7 +36,7 @@ function OpenIdCardMenu(locationId)
 				description = locale('IdMenu.SubTitleDescription', Config.IdCardPrice),
 				icon = locale('IdMenu.SubTitleIcon'),
 				onSelect = function()
-					lib.callback.await('MrNewbCityHall:Callback:PurchaseIdCard', false, locationId)
+					lib.callback.await('MrNewbCityHall:server:purchasedIdCard', false, locationId)
 				end,
 			},
 		},
@@ -56,7 +56,7 @@ local function collectApplicationAnswers(locationId, applicationType)
 	end
 
 	local questionFields = {}
-	local questionCount = math.min(#application.questions, 20)
+	local questionCount = math.min(#application.questions, MAX_QUESTION_COUNT)
 	for questionIndex = 1, questionCount do
 		local question = application.questions[questionIndex]
 		questionFields[questionIndex] = {
@@ -69,7 +69,7 @@ local function collectApplicationAnswers(locationId, applicationType)
 	end
 
 	local applicationAnswers = bridge.inputs.inputdialog(
-		locale('ApplicationMenu.ApplicationTitle', application.label or applicationType),
+		locale('ApplicationMenu.ApplicationTitle', application.label),
 		questionFields
 	)
 	if not applicationAnswers then return end
@@ -79,7 +79,7 @@ local function collectApplicationAnswers(locationId, applicationType)
 		return
 	end
 
-	lib.callback.await('MrNewbCityHall:Callback:SubmitApplication', false, locationId, applicationType, applicationAnswers)
+	lib.callback.await('MrNewbCityHall:server:submittedApplication', false, locationId, applicationType, applicationAnswers)
 end
 
 function OpenApplicationMenu(locationId)
@@ -92,9 +92,9 @@ function OpenApplicationMenu(locationId)
 		},
 	}
 
-	for applicationType, application in pairs(Config.Applications or {}) do
+	for applicationType, application in pairs(Config.Applications) do
 		menuOptions[#menuOptions + 1] = {
-			title = locale('ApplicationMenu.SubTitleOption', application.label or applicationType),
+			title = locale('ApplicationMenu.SubTitleOption', application.label),
 			icon = locale('ApplicationMenu.SubTitleIcon'),
 			onSelect = function()
 				collectApplicationAnswers(locationId, applicationType)

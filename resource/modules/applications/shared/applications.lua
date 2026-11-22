@@ -1,4 +1,4 @@
-local maxQuestionCount = 20
+MAX_QUESTION_COUNT = 20
 local maxAnswerCharacterCount = 500
 
 function GetApplication(applicationType)
@@ -9,7 +9,7 @@ end
 function ValidateApplicationAnswers(application, answers)
 	if type(answers) ~= 'table' then return false end
 
-	local questionCount = math.min(#application.questions, maxQuestionCount)
+	local questionCount = math.min(#application.questions, MAX_QUESTION_COUNT)
 	if questionCount < 1 then return false end
 
 	for questionIndex = 1, questionCount do

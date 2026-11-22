@@ -31,7 +31,7 @@ Config.AvailableJobs = {
 
 Config.CityHallLocations = {
     ['Job Center'] = {
-        location = vector4(-267.7597, -959.0208, 30.2231, 206.4160),
+        location = vector4(-267.7597, -959.0208, 31.2231, 206.4160),
         model = 's_m_y_hwaycop_01',
         availableJobs = Config.AvailableJobs,
         blipData = {
