@@ -5,26 +5,26 @@ lua54 'yes'
 name 'MrNewbCityHall'
 description 'City hall jobs, ID cards, and job applications'
 author 'MrNewb'
-version '1.0.1'
+version '1.0.2'
 
 shared_scripts {
     '@ox_lib/init.lua',
     '@Newb_Bridge/import.lua',
-    'configs/cityhall.lua',
-    'configs/applications.lua',
-    'resource/shared/locale.lua',
-    'resource/shared/applications.lua',
+    'resource/open/shared/cityhall.lua',
+    'resource/open/shared/applications.lua',
+    'resource/modules/core/shared/locale.lua',
+    'resource/modules/applications/shared/applications.lua',
 }
 
 client_scripts {
-    'resource/client/menus.lua',
-    'resource/client/registry.lua',
+    'resource/modules/cityhall/client/menus.lua',
+    'resource/modules/cityhall/client/registry.lua',
 }
 
 server_scripts {
-    'configs/webhooks.lua',
-    'resource/server/discord.lua',
-    'resource/server/cityhall.lua',
+    'resource/open/server/webhooks.lua',
+    'resource/modules/applications/server/discord.lua',
+    'resource/modules/cityhall/server/cityhall.lua',
 }
 
 files {
@@ -39,7 +39,5 @@ dependencies {
 }
 
 escrow_ignore {
-    'configs/*.lua',
-    'locales/*.json',
-    'resource/**/*.lua',
+    '**/*',
 }

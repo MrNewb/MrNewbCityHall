@@ -39,7 +39,6 @@ local function purchaseIdCard(src, locationId)
 
 	local idCardItem = Config.IdCardItem or 'id_card'
 	local bankBalance = tonumber(bridge.framework.getMoney(src, 'bank')) or 0
-	if bankBalance < 0 then return false, bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' }) end
 	if bankBalance < idCardPrice then return false, bridge.notifications.notify(src, { description = locale('Notify.NotEnoughMoney', idCardPrice), type = 'error' }) end
 
 	if idCardPrice > 0 and not bridge.framework.removeMoney(src, 'bank', idCardPrice, 'cityhall_id_card') then
@@ -102,19 +101,13 @@ local function submitJobApplication(src, locationId, applicationType, answers)
 	return true
 end
 
-lib.callback.register('MrNewbCityHall:Callback:SetJob', function(src, locationId, jobName)
-	return assignCityHallJob(src, locationId, jobName)
-end)
+lib.callback.register('MrNewbCityHall:Callback:SetJob', assignCityHallJob)
 
-lib.callback.register('MrNewbCityHall:Callback:PurchaseIdCard', function(src, locationId)
-	return purchaseIdCard(src, locationId)
-end)
+lib.callback.register('MrNewbCityHall:Callback:PurchaseIdCard', purchaseIdCard)
 
-lib.callback.register('MrNewbCityHall:Callback:SubmitApplication', function(src, locationId, applicationType, answers)
-	return submitJobApplication(src, locationId, applicationType, answers)
-end)
+lib.callback.register('MrNewbCityHall:Callback:SubmitApplication', submitJobApplication)
 
 AddEventHandler('onResourceStart', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	exports[bridge.name]:VersionCheck('MrNewb/patchnotes', resourceName)
 end)

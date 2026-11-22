@@ -4,6 +4,8 @@ City hall NPCs for ID replacements, walk-up jobs, and applications with optional
 
 [Documentation](https://mrnewb.github.io/docs/mrnewbcityhall) · [Install guide](https://mrnewb.github.io/docs/mrnewbcityhall/install) · [Tebex](https://mrnewbscripts.tebex.io/) · [Discord](https://discord.gg/mrnewbscripts)
 
+Documentation is available at https://mrnewb.github.io/docs/
+
 ## Features
 
 - Walk-up job assignment per desk (`availableJobs` → grade)
@@ -27,8 +29,8 @@ ensure MrNewbCityHall
 
 | File | Realm | Contents |
 | --- | --- | --- |
-| `configs/cityhall.lua` | shared | Locations, ID price, interact distance, application cooldown, available jobs |
-| `configs/applications.lua` | shared | Application questions per job |
-| `configs/webhooks.lua` | **server only** | Per-job Discord webhook URLs |
+| `resource/open/shared/cityhall.lua` | shared | Locations, ID price, interact distance, application cooldown, available jobs |
+| `resource/open/shared/applications.lua` | shared | Application questions per job |
+| `resource/open/server/webhooks.lua` | **server only** | Per-job Discord webhook URLs |
 
 Submits are rejected until a valid Discord webhook URL is set for that job. Details: [documentation](https://mrnewb.github.io/docs/mrnewbcityhall).

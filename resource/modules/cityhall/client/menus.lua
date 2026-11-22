@@ -2,7 +2,7 @@ function OpenJobMenu(locationId, availableJobs)
 	local currentJob = bridge.framework.getPlayerJobData() or {}
 	local menuOptions = {
 		{
-			title = locale('JobMenu.SubTitle', currentJob.jobLabel or '—', currentJob.gradeName or currentJob.grade or '—'),
+			title = locale('JobMenu.SubTitle', currentJob.jobLabel or '-', currentJob.gradeName or currentJob.grade or '-'),
 			description = locale('JobMenu.SubTitleDescription'),
 			icon = locale('JobMenu.SubTitleIcon'),
 			disabled = true,

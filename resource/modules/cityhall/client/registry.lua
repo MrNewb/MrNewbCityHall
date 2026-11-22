@@ -17,7 +17,7 @@ function CreateCityHallLocations()
 	local interactionDistance = Config.InteractDistance or 5.0
 
 	for locationId, cityHall in pairs(Config.CityHallLocations or {}) do
-		if not activeCityHallInteractions[locationId] and type(locationId) == 'string' and type(cityHall) == 'table' and cityHall.location then
+		if not activeCityHallInteractions[locationId] and cityHall.location then
 			local locationCoords = cityHall.location
 			local interactionId = ('mrnewb_cityhall_%s'):format(locationId:gsub('%s+', '_'):lower())
 			local availableJobs = cityHall.availableJobs or {}
@@ -81,11 +81,11 @@ function RemoveCityHallLocations()
 	end
 end
 
-AddEventHandler('Newb_Bridge:client:playerLoad', CreateCityHallLocations)
-AddEventHandler('Newb_Bridge:client:playerUnload', RemoveCityHallLocations)
+AddEventHandler('Newb_Bridge:client:playerLoaded', CreateCityHallLocations)
+AddEventHandler('Newb_Bridge:client:playerUnloaded', RemoveCityHallLocations)
 
 AddEventHandler('onResourceStop', function(resourceName)
-	if GetCurrentResourceName() ~= resourceName then return end
+	if cache.resource ~= resourceName then return end
 	RemoveCityHallLocations()
 end)
 

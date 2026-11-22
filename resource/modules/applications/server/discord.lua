@@ -17,7 +17,7 @@ end
 
 local function formatApplicationAnswers(applicationType, answers)
 	local application = GetApplication(applicationType)
-	if not application or type(application.questions) ~= 'table' then
+	if not application then
 		return 'No questions configured for this application type'
 	end
 
@@ -76,9 +76,7 @@ local function flushQueuedApplicationLogs()
 end
 
 function SubmitDiscordLog(applicationType, answers, characterName, identifier)
-	if type(applicationType) ~= 'string' or applicationType == '' then return false end
 	if type(answers) ~= 'table' then return false end
-	if type(Config.Webhooks) ~= 'table' then return false end
 
 	local webhookUrl = Config.Webhooks[applicationType]
 	if type(webhookUrl) ~= 'string' or webhookUrl == '' then return false end
