@@ -5,7 +5,7 @@ lua54 'yes'
 name 'MrNewbCityHall'
 description 'City hall jobs, ID cards, and job applications'
 author 'MrNewb'
-version '1.0.3'
+version '1.0.4'
 
 ox_libs {
     'locale',
