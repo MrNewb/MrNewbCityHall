@@ -1,8 +1,12 @@
 # MrNewbCityHall
 
+![MrNewbCityHall](.github/assets/banner.webp)
+
 City hall NPCs for ID replacements, walk-up jobs, and applications with optional Discord webhooks.
 
-[Documentation](https://mrnewb.github.io/docs/mrnewbcityhall) | [Install guide](https://mrnewb.github.io/docs/mrnewbcityhall/install) | [Tebex](https://mrnewbscripts.tebex.io/) | [Discord](https://discord.gg/mrnewbscripts)
+[Documentation](https://mrnewb.github.io/docs/mrnewbcityhall) | [Install guide](https://mrnewb.github.io/docs/mrnewbcityhall/install) | [Tebex](https://mrnewbscripts.tebex.io/) | [Discord](https://discord.gg/mrnewbscripts) | [Short](https://www.youtube.com/shorts/eTsTBtN1Oy8)
+
+<a href="https://www.youtube.com/shorts/eTsTBtN1Oy8"><img src=".github/assets/short.webp" alt="MrNewbCityHall on YouTube Shorts" width="200"></a>
 
 Documentation is available at https://mrnewb.github.io/docs/
 
