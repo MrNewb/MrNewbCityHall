@@ -59,6 +59,13 @@
 		"Submitted": "Elküldve",
 		"Status": "Állapot",
 		"AwaitingReview": "Felülvizsgálatra vár",
-		"ApplicationSubmitted": "Új állásjelentkezés érkezett, és készen áll a felülvizsgálatra!"
+		"ApplicationSubmitted": "Új állásjelentkezés érkezett, és készen áll a felülvizsgálatra!",
+		"BotName": "Városházi jelentkezések",
+		"Footer": "Városházi jelentkezési rendszer",
+		"NoResponse": "Nincs megadott válasz",
+		"NoQuestions": "Ehhez a jelentkezéstípushoz nincsenek kérdések beállítva",
+		"Truncated": "*A válasz túl hosszú volt, ezért rövidítettük...*",
+		"ApplicantInfo": "Név: %s | Játékosazonosító: %s",
+		"Anonymous": "Névtelen jelentkező"
 	}
 }

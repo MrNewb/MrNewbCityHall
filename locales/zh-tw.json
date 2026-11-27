@@ -59,6 +59,13 @@
 		"Submitted": "已提交",
 		"Status": "狀態",
 		"AwaitingReview": "等待審核",
-		"ApplicationSubmitted": "已提交一份新的工作申請，可以開始審核！"
+		"ApplicationSubmitted": "已提交一份新的工作申請，可以開始審核！",
+		"BotName": "市政廳申請",
+		"Footer": "市政廳申請系統",
+		"NoResponse": "未填寫回答",
+		"NoQuestions": "此申請類型尚未設定問題",
+		"Truncated": "*回答過長，已縮短...*",
+		"ApplicantInfo": "姓名: %s | 玩家 ID: %s",
+		"Anonymous": "匿名申請人"
 	}
 }

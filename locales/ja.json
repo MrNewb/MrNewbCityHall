@@ -59,6 +59,13 @@
 		"Submitted": "提出済み",
 		"Status": "ステータス",
 		"AwaitingReview": "審査待ち",
-		"ApplicationSubmitted": "新しい求人応募が提出され、審査の準備ができました！"
+		"ApplicationSubmitted": "新しい求人応募が提出され、審査の準備ができました！",
+		"BotName": "市役所の申請",
+		"Footer": "市役所申請システム",
+		"NoResponse": "回答なし",
+		"NoQuestions": "この申請種別には質問が設定されていないよ",
+		"Truncated": "*回答が長すぎるため短縮したよ...*",
+		"ApplicantInfo": "名前: %s | プレイヤーID: %s",
+		"Anonymous": "匿名の申請者"
 	}
 }

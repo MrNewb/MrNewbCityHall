@@ -59,6 +59,13 @@
 		"Submitted": "Envoyée",
 		"Status": "Statut",
 		"AwaitingReview": "En attente de révision",
-		"ApplicationSubmitted": "Une nouvelle candidature a été soumise et est prête à être examinée !"
+		"ApplicationSubmitted": "Une nouvelle candidature a été soumise et est prête à être examinée !",
+		"BotName": "Candidatures à la mairie",
+		"Footer": "Système de candidatures à la mairie",
+		"NoResponse": "Aucune réponse fournie",
+		"NoQuestions": "Aucune question configurée pour ce type de candidature",
+		"Truncated": "*La réponse était trop longue et a été raccourcie...*",
+		"ApplicantInfo": "Nom: %s | ID du joueur: %s",
+		"Anonymous": "Candidat anonyme"
 	}
 }

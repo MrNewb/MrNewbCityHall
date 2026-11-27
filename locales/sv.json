@@ -59,6 +59,13 @@
 		"Submitted": "Inskickad",
 		"Status": "Status",
 		"AwaitingReview": "Väntar på granskning",
-		"ApplicationSubmitted": "En ny jobbanökan har skickats in och är redo för granskning!"
+		"ApplicationSubmitted": "En ny jobbanökan har skickats in och är redo för granskning!",
+		"BotName": "Ansökningar till stadshuset",
+		"Footer": "Stadshusets ansökningssystem",
+		"NoResponse": "Inget svar angivet",
+		"NoQuestions": "Inga frågor har ställts in för denna ansökningstyp",
+		"Truncated": "*Svaret var för långt och har kortats ner...*",
+		"ApplicantInfo": "Namn: %s | Spelar-ID: %s",
+		"Anonymous": "Anonym sökande"
 	}
 }

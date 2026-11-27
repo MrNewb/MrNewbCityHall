@@ -59,6 +59,13 @@
 		"Submitted": "Odesláno",
 		"Status": "Stav",
 		"AwaitingReview": "Čeká na kontrolu",
-		"ApplicationSubmitted": "Byla odeslána nová pracovní žádost a je připravena ke kontrole!"
+		"ApplicationSubmitted": "Byla odeslána nová pracovní žádost a je připravena ke kontrole!",
+		"BotName": "Žádosti na radnici",
+		"Footer": "Systém žádostí radnice",
+		"NoResponse": "Bez odpovědi",
+		"NoQuestions": "Pro tento typ žádosti nejsou nastavené otázky",
+		"Truncated": "*Odpověď byla příliš dlouhá a byla zkrácena...*",
+		"ApplicantInfo": "Jméno: %s | ID hráče: %s",
+		"Anonymous": "Anonymní žadatel"
 	}
 }

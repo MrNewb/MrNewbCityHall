@@ -59,6 +59,13 @@
 		"Submitted": "Enviado",
 		"Status": "Estado",
 		"AwaitingReview": "A aguardar revisão",
-		"ApplicationSubmitted": "Foi enviada uma nova candidatura de emprego e está pronta para revisão!"
+		"ApplicationSubmitted": "Foi enviada uma nova candidatura de emprego e está pronta para revisão!",
+		"BotName": "Inscrições da prefeitura",
+		"Footer": "Sistema de inscrições da prefeitura",
+		"NoResponse": "Nenhuma resposta fornecida",
+		"NoQuestions": "Nenhuma pergunta configurada para este tipo de inscrição",
+		"Truncated": "*A resposta era muito longa e foi encurtada...*",
+		"ApplicantInfo": "Nome: %s | ID do jogador: %s",
+		"Anonymous": "Candidato anônimo"
 	}
 }

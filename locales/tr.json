@@ -59,6 +59,13 @@
 		"Submitted": "Gönderildi",
 		"Status": "Durum",
 		"AwaitingReview": "İnceleme bekleniyor",
-		"ApplicationSubmitted": "Yeni bir iş başvurusu gönderildi ve incelemeye hazır!"
+		"ApplicationSubmitted": "Yeni bir iş başvurusu gönderildi ve incelemeye hazır!",
+		"BotName": "Belediye Başvuruları",
+		"Footer": "Belediye Başvuru Sistemi",
+		"NoResponse": "Yanıt verilmedi",
+		"NoQuestions": "Bu başvuru türü için soru ayarlanmamış",
+		"Truncated": "*Yanıt çok uzundu ve kısaltıldı...*",
+		"ApplicantInfo": "Ad: %s | Oyuncu Kimliği: %s",
+		"Anonymous": "Anonim Başvuru Sahibi"
 	}
 }

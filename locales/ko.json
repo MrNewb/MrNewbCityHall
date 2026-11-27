@@ -59,6 +59,13 @@
 		"Submitted": "제출됨",
 		"Status": "상태",
 		"AwaitingReview": "검토 대기",
-		"ApplicationSubmitted": "새 직업 지원서가 제출되어 검토할 준비가 되었습니다!"
+		"ApplicationSubmitted": "새 직업 지원서가 제출되어 검토할 준비가 되었습니다!",
+		"BotName": "시청 신청서",
+		"Footer": "시청 신청 시스템",
+		"NoResponse": "답변 없음",
+		"NoQuestions": "이 신청 유형에 설정된 질문이 없어요",
+		"Truncated": "*답변이 너무 길어 줄였어요...*",
+		"ApplicantInfo": "이름: %s | 플레이어 ID: %s",
+		"Anonymous": "익명 신청자"
 	}
 }

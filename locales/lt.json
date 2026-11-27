@@ -59,6 +59,13 @@
 		"Submitted": "Pateikta",
 		"Status": "Būsena",
 		"AwaitingReview": "Laukia peržiūros",
-		"ApplicationSubmitted": "Pateikta nauja darbo paraiška ir ji paruošta peržiūrai!"
+		"ApplicationSubmitted": "Pateikta nauja darbo paraiška ir ji paruošta peržiūrai!",
+		"BotName": "Savivaldybės paraiškos",
+		"Footer": "Savivaldybės paraiškų sistema",
+		"NoResponse": "Atsakymas nepateiktas",
+		"NoQuestions": "Šio tipo paraiškai klausimų nenustatyta",
+		"Truncated": "*Atsakymas buvo per ilgas ir sutrumpintas...*",
+		"ApplicantInfo": "Vardas: %s | Žaidėjo ID: %s",
+		"Anonymous": "Anoniminis pareiškėjas"
 	}
 }

@@ -59,6 +59,13 @@
 		"Submitted": "Sent",
 		"Status": "Status",
 		"AwaitingReview": "Awaitin Review",
-		"ApplicationSubmitted": "A new billet petition has been sent and awaits review!"
+		"ApplicationSubmitted": "A new billet petition has been sent and awaits review!",
+		"BotName": "Town Hall Petitions",
+		"Footer": "Town Hall Petition Ledger",
+		"NoResponse": "No reply given, arr",
+		"NoQuestions": "No queries set for this sort o petition",
+		"Truncated": "*Yer reply ran too long and was trimmed...*",
+		"ApplicantInfo": "Name: %s | Sailor ID: %s",
+		"Anonymous": "Nameless Petitioner"
 	}
 }

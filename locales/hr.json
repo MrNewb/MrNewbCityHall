@@ -59,6 +59,13 @@
 		"Submitted": "Poslano",
 		"Status": "Status",
 		"AwaitingReview": "Čeka pregled",
-		"ApplicationSubmitted": "Poslana je nova prijava za posao i spremna je za pregled!"
+		"ApplicationSubmitted": "Poslana je nova prijava za posao i spremna je za pregled!",
+		"BotName": "Prijave gradskoj upravi",
+		"Footer": "Sustav prijava gradskoj upravi",
+		"NoResponse": "Odgovor nije naveden",
+		"NoQuestions": "Nema postavljenih pitanja za ovu vrstu prijave",
+		"Truncated": "*Odgovor je bio predug pa je skraćen...*",
+		"ApplicantInfo": "Ime: %s | ID igrača: %s",
+		"Anonymous": "Anonimni podnositelj"
 	}
 }

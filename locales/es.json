@@ -59,6 +59,13 @@
 		"Submitted": "Enviado",
 		"Status": "Estado",
 		"AwaitingReview": "En espera de revisión",
-		"ApplicationSubmitted": "Se ha enviado una nueva solicitud de trabajo y está lista para revisar."
+		"ApplicationSubmitted": "Se ha enviado una nueva solicitud de trabajo y está lista para revisar.",
+		"BotName": "Solicitudes del ayuntamiento",
+		"Footer": "Sistema de solicitudes del ayuntamiento",
+		"NoResponse": "Sin respuesta",
+		"NoQuestions": "No hay preguntas configuradas para este tipo de solicitud",
+		"Truncated": "*La respuesta era demasiado larga y se ha acortado...*",
+		"ApplicantInfo": "Nombre: %s | ID del jugador: %s",
+		"Anonymous": "Solicitante anónimo"
 	}
 }

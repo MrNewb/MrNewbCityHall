@@ -59,6 +59,13 @@
 		"Submitted": "Lähetetty",
 		"Status": "Tila",
 		"AwaitingReview": "Odottaa tarkistusta",
-		"ApplicationSubmitted": "Uusi työhakemus on lähetetty ja valmis tarkistettavaksi!"
+		"ApplicationSubmitted": "Uusi työhakemus on lähetetty ja valmis tarkistettavaksi!",
+		"BotName": "Kaupungintalon hakemukset",
+		"Footer": "Kaupungintalon hakemusjärjestelmä",
+		"NoResponse": "Vastausta ei annettu",
+		"NoQuestions": "Tälle hakemustyypille ei ole määritetty kysymyksiä",
+		"Truncated": "*Vastaus oli liian pitkä, joten sitä lyhennettiin...*",
+		"ApplicantInfo": "Nimi: %s | Pelaajan ID: %s",
+		"Anonymous": "Nimetön hakija"
 	}
 }

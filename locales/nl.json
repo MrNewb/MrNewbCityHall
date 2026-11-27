@@ -59,6 +59,13 @@
 		"Submitted": "Ingediend",
 		"Status": "Status",
 		"AwaitingReview": "Wacht op beoordeling",
-		"ApplicationSubmitted": "Er is een nieuwe sollicitatie ingediend en die is klaar voor beoordeling!"
+		"ApplicationSubmitted": "Er is een nieuwe sollicitatie ingediend en die is klaar voor beoordeling!",
+		"BotName": "Stadhuisaanvragen",
+		"Footer": "Aanvraagsysteem van het stadhuis",
+		"NoResponse": "Geen antwoord opgegeven",
+		"NoQuestions": "Geen vragen ingesteld voor dit type aanvraag",
+		"Truncated": "*Het antwoord was te lang en is ingekort...*",
+		"ApplicantInfo": "Naam: %s | Speler-ID: %s",
+		"Anonymous": "Anonieme aanvrager"
 	}
 }

@@ -59,6 +59,13 @@
 		"Submitted": "Ingedien",
 		"Status": "Status",
 		"AwaitingReview": "Wag vir hersiening",
-		"ApplicationSubmitted": "n Nuwe werkaansoek is ingedien en is gereed vir hersiening!"
+		"ApplicationSubmitted": "n Nuwe werkaansoek is ingedien en is gereed vir hersiening!",
+		"BotName": "Stadsaalaansoeke",
+		"Footer": "Stadsaal se aansoekstelsel",
+		"NoResponse": "Geen antwoord verskaf",
+		"NoQuestions": "Geen vrae vir hierdie aansoektipe opgestel nie",
+		"Truncated": "*Antwoord was te lank en is verkort...*",
+		"ApplicantInfo": "Naam: %s | Speler-ID: %s",
+		"Anonymous": "Anonieme aansoeker"
 	}
 }

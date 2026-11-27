@@ -59,6 +59,13 @@
 		"Submitted": "Wysłano",
 		"Status": "Status",
 		"AwaitingReview": "Oczekuje na przegląd",
-		"ApplicationSubmitted": "Złożono nowy wniosek o pracę i jest gotowy do przeglądu!"
+		"ApplicationSubmitted": "Złożono nowy wniosek o pracę i jest gotowy do przeglądu!",
+		"BotName": "Wnioski do urzędu miasta",
+		"Footer": "System wniosków urzędu miasta",
+		"NoResponse": "Nie podano odpowiedzi",
+		"NoQuestions": "Nie ustawiono pytań dla tego typu wniosku",
+		"Truncated": "*Odpowiedź była zbyt długa i została skrócona...*",
+		"ApplicantInfo": "Imię i nazwisko: %s | ID gracza: %s",
+		"Anonymous": "Anonimowy wnioskodawca"
 	}
 }

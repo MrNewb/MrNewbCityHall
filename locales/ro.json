@@ -59,6 +59,13 @@
 		"Submitted": "Trimis",
 		"Status": "Status",
 		"AwaitingReview": "În așteptarea revizuirii",
-		"ApplicationSubmitted": "A fost trimisă o aplicație nouă pentru un job și este gata de revizuire!"
+		"ApplicationSubmitted": "A fost trimisă o aplicație nouă pentru un job și este gata de revizuire!",
+		"BotName": "Cereri la primărie",
+		"Footer": "Sistem de cereri la primărie",
+		"NoResponse": "Niciun răspuns oferit",
+		"NoQuestions": "Nicio întrebare configurată pentru acest tip de cerere",
+		"Truncated": "*Răspunsul era prea lung și a fost scurtat...*",
+		"ApplicantInfo": "Nume: %s | ID jucător: %s",
+		"Anonymous": "Solicitant anonim"
 	}
 }

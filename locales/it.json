@@ -59,6 +59,13 @@
 		"Submitted": "Inviata",
 		"Status": "Stato",
 		"AwaitingReview": "In attesa di revisione",
-		"ApplicationSubmitted": "È stata inviata una nuova candidatura di lavoro ed è pronta per la revisione!"
+		"ApplicationSubmitted": "È stata inviata una nuova candidatura di lavoro ed è pronta per la revisione!",
+		"BotName": "Domande al municipio",
+		"Footer": "Sistema di domande al municipio",
+		"NoResponse": "Nessuna risposta fornita",
+		"NoQuestions": "Nessuna domanda configurata per questo tipo di richiesta",
+		"Truncated": "*La risposta era troppo lunga ed è stata abbreviata...*",
+		"ApplicantInfo": "Nome: %s | ID giocatore: %s",
+		"Anonymous": "Richiedente anonimo"
 	}
 }

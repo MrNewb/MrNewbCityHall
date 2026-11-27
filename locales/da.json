@@ -59,6 +59,13 @@
 		"Submitted": "Indsendt",
 		"Status": "Status",
 		"AwaitingReview": "Afventer gennemgang",
-		"ApplicationSubmitted": "En ny jobansøgning er indsendt og klar til gennemgang!"
+		"ApplicationSubmitted": "En ny jobansøgning er indsendt og klar til gennemgang!",
+		"BotName": "Ansøgninger til rådhuset",
+		"Footer": "Rådhusets ansøgningssystem",
+		"NoResponse": "Intet svar angivet",
+		"NoQuestions": "Ingen spørgsmål opsat for denne ansøgningstype",
+		"Truncated": "*Svaret var for langt og er blevet forkortet...*",
+		"ApplicantInfo": "Navn: %s | Spiller-ID: %s",
+		"Anonymous": "Anonym ansøger"
 	}
 }

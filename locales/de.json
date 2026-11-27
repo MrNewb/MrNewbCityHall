@@ -59,6 +59,13 @@
 		"Submitted": "Eingereicht",
 		"Status": "Status",
 		"AwaitingReview": "Wartet auf Prüfung",
-		"ApplicationSubmitted": "Eine neue Jobbewerbung wurde eingereicht und ist bereit zur Prüfung!"
+		"ApplicationSubmitted": "Eine neue Jobbewerbung wurde eingereicht und ist bereit zur Prüfung!",
+		"BotName": "Rathausanträge",
+		"Footer": "Antragssystem des Rathauses",
+		"NoResponse": "Keine Antwort angegeben",
+		"NoQuestions": "Keine Fragen für diese Antragsart konfiguriert",
+		"Truncated": "*Die Antwort war zu lang und wurde gekürzt...*",
+		"ApplicantInfo": "Name: %s | Spieler-ID: %s",
+		"Anonymous": "Anonymer Antragsteller"
 	}
 }
